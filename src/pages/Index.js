@@ -1,30 +1,28 @@
 import React, {Fragment} from "react";
 import Footer from "../components/Footer";
 import Menu from "../components/Menu";
+import {VideoBg} from "../components/VideoBg";
 
 
 
 function Index() {
 return(
-<Fragment>
+  <Fragment>
 {/*div id="preloader">
       <div id="status"></div>
     </div> */}
-    
-    
-<Menu />
-
-
-      <header data-background="assets/img/bg-video.jpg" class="intro">
-      <div className="intro-body">
-		  <h1>YOUR ALIGNMENT</h1>
-        <h4>In Maritime Industry</h4>
-        
-        <div data-wow-delay="1s" class="scroll-btn wow fadeInDown">
-            {/* <a href="#about" class="page-scroll"></a> */}
-        </div>
-      </div>
-    </header>
+  <Menu />
+  <VideoBg/>
+    {/*  <header data-background="assets/img/bg-video.jpg" className="intro">*/}
+    {/*  <div className="intro-body">*/}
+	{/*	  <h1>YOUR ALIGNMENT</h1>*/}
+    {/*    <h4>In Maritime Industry</h4>*/}
+    {/*    */}
+    {/*    <div data-wow-delay="1s" class="scroll-btn wow fadeInDown">*/}
+    {/*        /!* <a href="#about" class="page-scroll"></a> *!/*/}
+    {/*    </div>*/}
+    {/*  </div>*/}
+    {/*</header>*/}
         
         <section id="services" className="bg-img4 text-center">
           <div className="container">

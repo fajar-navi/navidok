@@ -1,23 +1,21 @@
 import React, {Fragment, Component} from "react";
 import Footer from "../components/Footer";
 import Menu from "../components/Menu";
+import ImgBg from "../components/ImgBg";
 
 
 
 function Company() {
 return(
-<Fragment>
-<Menu />
+    <Fragment>
+    <Menu />
+    <ImgBg/>
+    {/*<header data-background="assets/img/bg-video.jpg" className="intro introhalf">*/}
+    {/*  <div className="intro-body">*/}
+    {/*    <h1>The Company</h1>*/}
+    {/*  </div>*/}
+    {/*</header>*/}
 
-
-
-<header data-background="assets/img/bg-video.jpg" className="intro introhalf">
-
-      <div className="intro-body">
-        <h1>The Company</h1>
-      </div>
-      
-    </header>
     <section id="about" className="section-small">
       <div className="container">
         <div className="row">

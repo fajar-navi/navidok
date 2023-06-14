@@ -7,7 +7,7 @@ import Shipyardowners from './pages/Shipyardowners';
 import Supportingindustries from './pages/Supportingindustries';
 import Individuals from './pages/Individuals';
 import Products from './pages/Products';
-import ImgBg from './pages/ImgBg';
+import ImgBg from './components/ImgBg';
 
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
