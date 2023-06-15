@@ -1,21 +1,45 @@
 import React, {Fragment} from "react";
+import Footer from "../components/Footer";
+import Menu from "../components/Menu";
+
+
 
 function Individuals() {
+  let imageStyle = {
+    backgroundImage:
+    'url("https://media.gettyimages.com/id/1134352403/photo/ship-on-dry-dock.jpg?s=2048x2048&w=gi&k=20&c=GZaOYUo-OgPt4MH7bzuBF19NPCWrKb-x_nrpuL-1GnA=")',
+     padding: 180,
+    color: "white", 
+    backgroundPosition: 'center',
+     backgroundSize: 'cover',
+     backgroundRepeat: 'no-repeat',
+     textAlign: "center",
+     width: '100vw',
+     height: '40vh'
+ };
+
+
 return(
     <Fragment>
+      <Menu />
 
-<header data-background="https://media.gettyimages.com/id/1134352403/photo/ship-on-dry-dock.jpg?s=2048x2048&w=gi&k=20&c=GZaOYUo-OgPt4MH7bzuBF19NPCWrKb-x_nrpuL-1GnA=" className="intro introhalf">
+      <div  className="intro-body introhalf image" style = {imageStyle}>
+              <div  className="introhalf" >
+              <h1 style={{fontWeight: '900'}}>Individuals</h1>
+              </div>
+         </div>
+
+{/* <header data-background="https://media.gettyimages.com/id/1134352403/photo/ship-on-dry-dock.jpg?s=2048x2048&w=gi&k=20&c=GZaOYUo-OgPt4MH7bzuBF19NPCWrKb-x_nrpuL-1GnA=" className="intro introhalf">
       <div className="intro-body">
         <h1>Our Users</h1>
       </div>
-    </header>
+    </header> */}
     
     <section id="about" className="section-small">
       <div className="container">
         <div className="row">
           <div className="col-lg-2"  />
             <img src="assets/img/icon-4.png" className= "icons" alt=""/>
-            
           </div>
           <div className="col-lg-10">
             <h2 className="font-blue">Individuals</h2>
@@ -58,7 +82,7 @@ please click this link and tell us more about your company.</p>
 		
 
     </section>
-
+<Footer />
     </Fragment>
 )
 }

@@ -19,7 +19,7 @@ return(
           <ul className="nav navbar-nav navbar-left">
             <li><Link to="/">HOME </Link></li>
             <li><Link to="/company">THE COMPANY </Link></li>
-            <li>OUR USERS <span className="caret" />
+            <li><Link to="/company">OUR USERS <span className="caret" /></Link>
               <ul className="dropdown-menu">
                 <li><Link to="/shipowners">SHIPOWNERS & OPERATORS</Link></li>
                 <li><Link to="/shipyardowners">SHIPYARD OWNERS </Link></li>
@@ -39,7 +39,3 @@ return(
 }
 
 export default Menu;
-
-
-
-

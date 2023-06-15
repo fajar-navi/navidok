@@ -965,6 +965,13 @@ a.btn-nav .btn {
   .intro h1.classic2 {
     font-size: 110px;
     line-height: 110px; }
+
+    .intro h2 {
+      font-size: 38px;
+      font-weight: 900;
+      line-height: 80px;
+  }
+
 .intro .lead {
   margin: 40px 0 0; }
 
@@ -2005,3 +2012,16 @@ li .shop-cart {
 .box-rounded {border: 1px solid #283891;
     border-radius: 10px;
     padding: 30px; text-align:center;}
+
+
+.z-10 {z-index: -10 !important;}
+
+.main-vid-text {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 250px 0 50px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  text-align: -webkit-center;
+  color: #fff;}
