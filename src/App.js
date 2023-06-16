@@ -25,7 +25,7 @@ function App() {
       <div>
           <Router basename="/">
               {/* Add Menu Component */}
-              <Navbarmenu />
+              {/*<Navbarmenu />*/}
               <Routes>
                   <Route exact path="/" element={<Index />} />
                   <Route path="/company" element={<Company />} />

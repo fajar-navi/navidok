@@ -12,7 +12,8 @@ return(
       <div id="status"></div>
     </div> */}
   <Menu />
-  {/*<VideoBg/>*/}
+  <VideoBg/>
+
     {/*  <header data-background="assets/img/bg-video.jpg" className="intro">*/}
     {/*  <div className="intro-body">*/}
 	{/*	  <h1>YOUR ALIGNMENT</h1>*/}
