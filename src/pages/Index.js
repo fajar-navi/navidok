@@ -12,7 +12,7 @@ return(
       <div id="status"></div>
     </div> */}
   <Menu />
-  <VideoBg/>
+  {/*<VideoBg/>*/}
     {/*  <header data-background="assets/img/bg-video.jpg" className="intro">*/}
     {/*  <div className="intro-body">*/}
 	{/*	  <h1>YOUR ALIGNMENT</h1>*/}
@@ -61,19 +61,19 @@ We currently serve in selected areas</p>
             </div>
             <div className="row">
               <div data-wow-delay=".2s" className="col-lg-3 col-sm-6 wow fadeIn">
-                <img src="assets/img/icon-1.png" className="icons" alt="" /><h4 className="font-lightblue"> Shipowners &amp; Operators</h4>
+                <img src="../assets/img/icon-1.png" className="icons" alt="" /><h4 className="font-lightblue"> Shipowners &amp; Operators</h4>
                 {/* <a href="shipping-co.html" className="btn btn-dark">learn more</a> */}
               </div>
               <div data-wow-delay=".4s" className="col-lg-3 col-sm-6 wow fadeIn">
-                <img src="assets/img/icon-2.png" className="icons " alt="" /><h4 className="font-lightblue"> Shipyard Owners</h4>
+                <img src="../assets/img/icon-2.png" className="icons " alt="" /><h4 className="font-lightblue"> Shipyard Owners</h4>
                 {/* <a href="shipyard.html" className="btn btn-dark">learn more</a> */}
               </div>
               <div data-wow-delay=".6s" className="col-lg-3 col-sm-6 wow fadeIn">
-                <img src="assets/img/icon-3.png" className="icons " alt="" /><h4 className="font-lightblue"> Supporting Industries</h4>
+                <img src="../assets/img/icon-3.png" className="icons " alt="" /><h4 className="font-lightblue"> Supporting Industries</h4>
                 {/* <a href="support.html" className="btn btn-dark">learn more</a> */}
               </div>
               <div data-wow-delay=".8s" className="col-lg-3 col-sm-6 wow fadeIn">
-                <img src="assets/img/icon-4.png" className="icons " alt="" /><h4 className="font-lightblue"> Individuals</h4>
+                <img src="../assets/img/icon-4.png" className="icons " alt="" /><h4 className="font-lightblue"> Individuals</h4>
                 {/* <a href="individual.html" className="btn btn-dark">learn more</a> */}
               </div>
             </div>

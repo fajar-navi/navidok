@@ -37,7 +37,7 @@ return(
                 <a href="#"><i className="fa fa-facebook fa-fw fa-lg" style={{textAlign: 'left'}} /></a>
                 <a href="#"><i className="fa fa-twitter fa-fw fa-lg" style={{textAlign: 'left'}} /></a>
                 <a href="#"><i className="fa fa-instagram fa-fw fa-lg" /></a>
-                <img src="assets/img/download.png" style={{maxWidth: '100px', marginTop: '10px'}} />
+                <img src="../assets/img/download.png" style={{maxWidth: '100px', marginTop: '10px'}} />
               </div>
             </div>
           </div>
