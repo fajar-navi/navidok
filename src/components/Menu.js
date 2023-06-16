@@ -1,4 +1,4 @@
-import React, {Fragment, useState} from "react";
+import React, {Fragment, useEffect, useState} from "react";
 import { Link } from "react-router-dom";
 
 import DropDown from './DropDown'
@@ -19,6 +19,22 @@ function Menu() {
     setDropdown(false)
   }
 // END TAMBAHAN
+
+  useEffect(() => {
+    window.addEventListener("scroll", onScroll);
+  });
+
+  // Cara baru bikin function
+  const onScroll = (e) => {
+    const navBar = document.querySelector(".navbar");
+    const scrollTop = window.scrollY;
+    scrollTop >= 250
+        ? navBar.classList.add("top-nav-collapse")
+        : navBar.classList.remove("top-nav-collapse")
+  }
+
+  // Cara lama bikin function
+  // function onScroll(e){}
 
 return(
     <Fragment>
