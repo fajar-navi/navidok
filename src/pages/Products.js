@@ -7,7 +7,7 @@ const Products = () => {
   return (
     <Fragment>
     <Menu />
-    <ImgBg/>
+    <ImgBg title={"Products"} src={"https://media.gettyimages.com/id/916868228/photo/shipyard-maintenance-at-night.jpg?s=612x612&w=0&k=20&c=aFksyeh8cdcK0F_kSodlKiHKcilWRUDI0sMPYx5MxX0="}/>
 
 
 <section id="action-slider">
