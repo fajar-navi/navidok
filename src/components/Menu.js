@@ -2,6 +2,7 @@ import React, {Fragment, useEffect, useState} from "react";
 import { Link } from "react-router-dom";
 
 import DropDown from './DropDown'
+import {HashLink} from "react-router-hash-link";
 
 function Menu() {
 
@@ -16,7 +17,7 @@ function Menu() {
   }
 
   const onMouseLeave = () => {
-    // setDropdown(false)
+    setDropdown(false)
   }
 // END TAMBAHAN
 
@@ -48,7 +49,8 @@ return(
     <nav className="navbar navbar-universal navbar-custom navbar-fixed-top">
       <div className="container">
         <div className="navbar-header">
-          <button type="button" data-toggle="collapse" data-target=".navbar-main-collapse" className="navbar-toggle" onClick={onNavbarClick}>
+          <button type="button" data-toggle="collapse" data-target=".navbar-main-collapse" className="navbar-toggle"
+                  onClick={onNavbarClick}>
             <span className="sr-only">Toggle navigation</span><span className="icon-bar"></span><span className="icon-bar"></span><span className="icon-bar"></span></button>
           <a href="/" className="navbar-brand page-scroll">
 
@@ -80,7 +82,9 @@ return(
             {/*  </ul>*/}
             {/*</li>*/}
             <li><Link to="/products">OUR PRODUCTS </Link></li>
-            <li><Link to="/#contact">HELP CENTER </Link></li>
+            <li>
+              <HashLink smooth to="/#contact" onClick={onNavbarClick}>HELP CENTER</HashLink>
+            </li>
           </ul>
         </div>
       </div>
