@@ -2,6 +2,7 @@ import React, {Fragment} from "react";
 import Footer from "../components/Footer";
 import Menu from "../components/Menu";
 import ImgBg from "../components/ImgBg";
+import {Slider} from "./Slider";
 
 
 const Products = () => {
@@ -10,6 +11,7 @@ const Products = () => {
     <Menu />
     <ImgBg title={"Products"} src={"https://media.gettyimages.com/id/1303706998/photo/stern-of-ship-in-dry-dock.jpg?s=2048x2048&w=gi&k=20&c=cM8RNQ77_yVsn7VixECbrQegwbz1G675Q64r7vxAlyk="}/>
 
+        {/*<Slider />*/}
 
 <section id="action-slider">
       <div className="container">
