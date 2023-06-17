@@ -8,7 +8,7 @@ import ImgBg from "../components/ImgBg";
 function Individuals() {
   let imageStyle = {
     backgroundImage:
-    'url("https://media.gettyimages.com/id/1134352403/photo/ship-on-dry-dock.jpg?s=2048x2048&w=gi&k=20&c=GZaOYUo-OgPt4MH7bzuBF19NPCWrKb-x_nrpuL-1GnA=")',
+    'url("assets/img/header-01.jpg")',
      padding: 180,
     color: "white",
     backgroundPosition: 'center',
@@ -23,7 +23,7 @@ function Individuals() {
 return(
     <Fragment>
       <Menu />
-        <ImgBg title={"Individuals"} src={"https://media.gettyimages.com/id/1134352403/photo/ship-on-dry-dock.jpg?s=2048x2048&w=gi&k=20&c=GZaOYUo-OgPt4MH7bzuBF19NPCWrKb-x_nrpuL-1GnA="}/>
+        <ImgBg title={"Individuals"} src={"assets/img/header-05.jpg"}/>
 
       {/*<div  className="intro-body introhalf image" style = {imageStyle}>*/}
       {/*        <div  className="introhalf" >*/}

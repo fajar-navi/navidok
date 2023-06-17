@@ -9,7 +9,7 @@ function Company() {
 return(
     <Fragment>
     <Menu />
-    <ImgBg trading={"crypto"} title={"The Company"} src={"https://c.pxhere.com/photos/00/a0/shipyard_port_hamburg_elbe_norderwerft-1339560.jpg!d"}/>
+    <ImgBg trading={"crypto"} title={"The Company"} src={"assets/img/header-01.jpg"}/>
     {/*<header data-background="assets/img/bg-video.jpg" className="intro introhalf">*/}
     {/*  <div className="intro-body">*/}
     {/*    <h1>The Company</h1>*/}

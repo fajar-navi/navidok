@@ -4,11 +4,11 @@ import Menu from "../components/Menu";
 import ImgBg from "../components/ImgBg";
 
 
-const Supportingindustries = () => {
+const SupportingIndustries = () => {
     return (
         <Fragment>
             <Menu />
-            <ImgBg title={"Our Users    "} src={"https://media.gettyimages.com/id/182995548/photo/norfolk-virginia-dry-dock.jpg?s=2048x2048&w=gi&k=20&c=xjKxVUzFO9oL5hg31cEWFMaLossDzf3HDhmppkkK_Io="}/>
+            <ImgBg title={"Our Users    "} src={"assets/img/header-04.jpg"}/>
 
             <section id="about" className="section-small">
                 <div className="container">
@@ -46,4 +46,4 @@ const Supportingindustries = () => {
 )
 }
 
-export default Supportingindustries
+export default SupportingIndustries

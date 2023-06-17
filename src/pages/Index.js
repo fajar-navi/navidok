@@ -1,4 +1,5 @@
 import React, {Fragment, useEffect} from "react";
+import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import Menu from "../components/Menu";
 import {VideoBg} from "../components/VideoBg";
@@ -62,20 +63,20 @@ We currently serve in selected areas</p>
             </div>
             <div className="row">
               <div data-wow-delay=".2s" className="col-lg-3 col-sm-6 wow fadeIn">
-                <img src="../assets/img/icon-1.png" className="icons" alt="" /><h4 className="font-lightblue"> Shipowners &amp; Operators</h4>
-                {/* <a href="shipping-co.html" className="btn btn-dark">learn more</a> */}
+                <Link to="/shipowners"><img src="../assets/img/icon-1.png" className="icons" alt="" />
+                <h4 className="font-lightblue"> Shipowners &amp; Operators</h4></Link>
               </div>
               <div data-wow-delay=".4s" className="col-lg-3 col-sm-6 wow fadeIn">
-                <img src="../assets/img/icon-2.png" className="icons " alt="" /><h4 className="font-lightblue"> Shipyard Owners</h4>
-                {/* <a href="shipyard.html" className="btn btn-dark">learn more</a> */}
+                <Link to="/shipyardowners"><img src="../assets/img/icon-2.png" className="icons " alt="" />
+                <h4 className="font-lightblue"> Shipyard Owners</h4></Link>
               </div>
               <div data-wow-delay=".6s" className="col-lg-3 col-sm-6 wow fadeIn">
-                <img src="../assets/img/icon-3.png" className="icons " alt="" /><h4 className="font-lightblue"> Supporting Industries</h4>
-                {/* <a href="support.html" className="btn btn-dark">learn more</a> */}
+                <Link to="/supportingindustries"><img src="../assets/img/icon-3.png" className="icons " alt="" />
+                <h4 className="font-lightblue"> Supporting Industries</h4></Link>
               </div>
               <div data-wow-delay=".8s" className="col-lg-3 col-sm-6 wow fadeIn">
-                <img src="../assets/img/icon-4.png" className="icons " alt="" /><h4 className="font-lightblue"> Individuals</h4>
-                {/* <a href="individual.html" className="btn btn-dark">learn more</a> */}
+                <Link to="/individuals"><img src="../assets/img/icon-4.png" className="icons " alt="" />
+                <h4 className="font-lightblue"> Individuals</h4></Link>
               </div>
             </div>
           </div>

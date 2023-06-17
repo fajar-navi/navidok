@@ -2,6 +2,8 @@ import React, {Fragment, useEffect, useState} from "react";
 import { Link } from "react-router-dom";
 
 import {HashLink} from "react-router-hash-link";
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/fontawesome-free-solid'
 
 function Menu() {
 
@@ -39,6 +41,9 @@ function Menu() {
         ?navbarMainCollapse.classList.remove("in")
         :navbarMainCollapse.classList.add("in");
   }
+  // const element = (
+  //     <FontAwesomeIcon icon={faCoffee} />
+  // )
 
   // Cara lama bikin function
   // function onScroll(e){}
