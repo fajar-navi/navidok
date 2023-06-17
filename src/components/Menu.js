@@ -1,7 +1,6 @@
 import React, {Fragment, useEffect, useState} from "react";
 import { Link } from "react-router-dom";
 
-import DropDown from './DropDown'
 import {HashLink} from "react-router-hash-link";
 
 function Menu() {
@@ -17,7 +16,7 @@ function Menu() {
   }
 
   const onMouseLeave = () => {
-    setDropdown(false)
+    setDropdown(true)
   }
 // END TAMBAHAN
 
@@ -63,7 +62,7 @@ return(
             <li><Link to="/company">THE COMPANY </Link></li>
             <li className='nav-items' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} >
               <Link className='nav-links' onClick={closeMobileMenu}> OUR USERS <i className='fas fa-caret-down' />
-                {dropdown && <DropDown />}
+                {/*{dropdown && <DropDown />}*/}
                 {/*<ul className="dropdown-menu">*/}
                 {/*  <li><Link to="/shipowners">SHIPOWNERS & OPERATORS</Link></li>*/}
                 {/*  <li><Link to="/shipyardowners">SHIPYARD OWNERS </Link></li>*/}

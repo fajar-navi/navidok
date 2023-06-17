@@ -9,7 +9,7 @@ function Company() {
 return(
     <Fragment>
     <Menu />
-    <ImgBg trading={"crypto"} title={"The Company"} src={"https://media.gettyimages.com/id/916868228/photo/shipyard-maintenance-at-night.jpg?s=612x612&w=0&k=20&c=aFksyeh8cdcK0F_kSodlKiHKcilWRUDI0sMPYx5MxX0="}/>
+    <ImgBg trading={"crypto"} title={"The Company"} src={"https://c.pxhere.com/photos/00/a0/shipyard_port_hamburg_elbe_norderwerft-1339560.jpg!d"}/>
     {/*<header data-background="assets/img/bg-video.jpg" className="intro introhalf">*/}
     {/*  <div className="intro-body">*/}
     {/*    <h1>The Company</h1>*/}

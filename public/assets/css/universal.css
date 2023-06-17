@@ -2019,9 +2019,11 @@ li .shop-cart {
 .main-vid-text {
   display: table-cell;
   vertical-align: middle;
-  padding: 250px 0 50px;
+  padding: 20% 0;
   width: 100%;
   position: fixed;
   z-index: 1;
   text-align: -webkit-center;
   color: #fff;}
+
+.orange {color: #fe7e00 !important;}

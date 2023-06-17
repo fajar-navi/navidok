@@ -2019,7 +2019,7 @@ li .shop-cart {
 .main-vid-text {
   display: table-cell;
   vertical-align: middle;
-  padding: 250px 0 50px;
+  padding: 40% 0;
   width: 100%;
   position: fixed;
   z-index: 1;

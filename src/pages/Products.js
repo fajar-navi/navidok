@@ -3,11 +3,12 @@ import Footer from "../components/Footer";
 import Menu from "../components/Menu";
 import ImgBg from "../components/ImgBg";
 
+
 const Products = () => {
   return (
     <Fragment>
     <Menu />
-    <ImgBg title={"Products"} src={"https://media.gettyimages.com/id/916868228/photo/shipyard-maintenance-at-night.jpg?s=612x612&w=0&k=20&c=aFksyeh8cdcK0F_kSodlKiHKcilWRUDI0sMPYx5MxX0="}/>
+    <ImgBg title={"Products"} src={"https://media.gettyimages.com/id/1303706998/photo/stern-of-ship-in-dry-dock.jpg?s=2048x2048&w=gi&k=20&c=cM8RNQ77_yVsn7VixECbrQegwbz1G675Q64r7vxAlyk="}/>
 
 
 <section id="action-slider">
@@ -21,30 +22,38 @@ const Products = () => {
                 <li data-target="#carousel-light" data-slide-to="2"></li>
               </ol>
               <div role="listbox" className="carousel-inner">
-                <div className="item active mob-m-250 posit-470" >
-				
-				<div className="col-lg-6">
-				</div>
-                <div className="col-lg-6 mob-m--300">						
-				<h1 className="heading title-dark mt-7 font-blue line-height1">NaviFIND</h1>
-                                            <p className="para-desc mx-auto f22 font-blue">It is a highly specialized marine search engine coupled with some specific powerful tools to find answers for maritime queries faster, better, and cheaper.</p>
-				</div></div>
-                <div className="item mob-m-250 posit-470" >
-				
-				<div className="col-lg-6">
-				</div>
-                <div className="col-lg-6 mob-m--300">						
-				<h1 className="heading title-dark mt-7 font-blue line-height1">NaviGLOBE</h1>
-                                            <p className="para-desc mx-auto f22 font-blue">A maritime Globe that enables users to have a better sense of connectivity and information</p>
-				</div></div>
-                <div className="item mob-m-250 posit-470" >
-				
-				<div className="col-lg-6">
-				</div>
-                <div className="col-lg-6 mob-m--300">						
-				<h1 className="heading title-dark mt-7 font-blue line-height1">Maritime Social Media</h1>
-                                            <p className="para-desc mx-auto f22 font-blue">An interactive digital forum where all maritime stakeholders will encounter one another</p>
-				</div></div>
+                  <div className="item active" style={{backgroundImage: 'url("assets/img/bg_product.jpg")', height: '555px'}}>
+                      <div className="col-lg-6">
+                      </div>
+                      <div className="col-lg-6">
+                          <h1 className="heading title-dark mt-7 font-blue">NaviFIND</h1>
+                          <p className="para-desc mx-auto">It is a highly specialized marine search engine coupled with some specific powerful tools to find answers for maritime queries faster, better, and cheaper.</p>
+                      </div>
+                  </div>
+                  <div className="item" style={{backgroundImage: 'url("assets/img/bg_product.jpg")', height: '555px'}}>
+                      <div className="col-lg-6">
+                      </div>
+                      <div className="col-lg-6">
+                          <h1 className="heading title-dark mt-7 font-blue">NaviGLOBE</h1>
+                          <p className="para-desc mx-auto">A maritime Globe that enables users to have a better sense of connectivity and information</p>
+                      </div></div>
+                  <div className="item" style={{backgroundImage: 'url("assets/img/bg_product.jpg")', height: '555px'}}>
+                      <div className="col-lg-6">
+                      </div>
+                      <div className="col-lg-6">
+                          <h1 className="heading title-dark mt-7 font-blue">Maritime Social Media</h1>
+                          <p className="para-desc mx-auto">An interactive digital forum where all maritime stakeholders will encounter one another</p>
+                      </div></div>
+                  <div className="item" style={{backgroundImage: 'url("assets/img/bg_product.jpg")', height: '555px'}}>
+                      <div className="col-lg-6">
+                      </div>
+                      <div className="col-lg-6">
+                          <h1 className="heading title-dark mt-7 font-blue">Get Intel!</h1>
+                          <p className="para-desc mx-auto">We Bring Magic to Shipyards owners
+                              And those who must find ships for their drydock(s)<br />
+                              Drop us an email at magic@navidok.com and we will send you the spell</p>
+                      </div></div>
+
               </div>
             </div>
           </div>

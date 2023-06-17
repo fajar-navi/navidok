@@ -11,13 +11,13 @@ import ImgBg from './components/ImgBg';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
-import Navbar from '../src/components/NavBar';
-import Category from './pages/Category';
-import About from './pages/About';
-import Categories_data from './pages/Categories_data';
+
+// import Category from './pages/Category';
+// import About from './pages/About';
+// import Categories_data from './pages/Categories_data';
 
 
-import Navbarmenu from './components/menu/Navbarmenu';
+
 
 function App() {
   return (

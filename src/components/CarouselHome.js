@@ -6,24 +6,19 @@ export function CarouselHome(){
             <div>
                 <Carousel cols={1} rows={1} gap={10} loop>
                     <Carousel.Item>
-                        <div className="text-item">YOUR <span className="orange">ALIGNMENT</span>
+                        <h1 className="text-item">YOUR <span className="orange">ALIGNMENT</span>
                             <br/><span>In Maritime Industry</span>
-                        </div>
+                        </h1>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="text-item">YOUR <span className="orange">ALIGNMENT</span>
+                        <h1 className="text-item">ENERGIZING <span className="orange">CONNECTIVITY</span>
                             <br/><span>In Maritime Industry</span>
-                        </div>
+                        </h1>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="text-item">YOUR <span className="orange">ALIGNMENT</span>
-                            <br/><span>In Maritime Industry</span>
-                        </div>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <div className="text-item">YOUR <span className="orange">ALIGNMENT</span>
-                            <br/><span>In Maritime Industry</span>
-                        </div>
+                        <h1 className="text-item">TOTAL <span className="orange">SHIPCARE</span>
+                            <br/><span>SOLUTIONS</span>
+                        </h1>
                     </Carousel.Item>
                 </Carousel>
 
