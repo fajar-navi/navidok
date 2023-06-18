@@ -18,7 +18,7 @@ function Menu() {
   }
 
   const onMouseLeave = () => {
-    setDropdown(true)
+    setDropdown(false)
   }
 // END TAMBAHAN
 
@@ -68,12 +68,12 @@ return(
             <li className='nav-items' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} >
               <Link className='nav-links' onClick={closeMobileMenu}> OUR USERS <i className='fas fa-caret-down' />
                 {/*{dropdown && <DropDown />}*/}
-                {/*<ul className="dropdown-menu">*/}
-                {/*  <li><Link to="/shipowners">SHIPOWNERS & OPERATORS</Link></li>*/}
-                {/*  <li><Link to="/shipyardowners">SHIPYARD OWNERS </Link></li>*/}
-                {/*  <li><Link to="/supportingindustries">SUPPORTING INDUSTRIES </Link></li>*/}
-                {/*  <li><Link to="/individuals">INDIVIDUALS </Link></li>*/}
-                {/*</ul>*/}
+                <ul className={`${dropdown?"dropdown":"hide"}`}>
+                  <li><Link to="/shipowners">SHIPOWNERS & OPERATORS</Link></li>
+                  <li><Link to="/shipyardowners">SHIPYARD OWNERS </Link></li>
+                  <li><Link to="/supportingindustries">SUPPORTING INDUSTRIES </Link></li>
+                  <li><Link to="/individuals">INDIVIDUALS </Link></li>
+                </ul>
               </Link>
 
             </li>
