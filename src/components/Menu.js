@@ -2,6 +2,7 @@ import React, {Fragment, useEffect, useState} from "react";
 import { Link } from "react-router-dom";
 import '../assets/css/arrow.css'
 import {HashLink} from "react-router-hash-link";
+import ddwn from "../img/down-arrow-svgrepo-com.svg"
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import { faCoffee } from '@fortawesome/fontawesome-free-solid'
 
@@ -69,7 +70,7 @@ return(
             <li><Link to="/">HOME </Link></li>
             <li><Link to="/company">THE COMPANY </Link></li>
             <li className='nav-items' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} >
-              <Link className='nav-links' onClick={closeMobileMenu}> OUR USERS <i className='fas fa-caret-down' />
+              <Link className='nav-links' onClick={closeMobileMenu}> OUR USERS <img fill="white" className='ddwn' src={ddwn} alt=""/>
                 {/*{dropdown && <DropDown />}*/}
                 <ul className={`${dropdown?"dropdown":"hide"} ddn`}>
                   <li><Link to="/shipowners" className={'has-submenu subm'}>SHIPOWNERS & OPERATORS</Link></li>
