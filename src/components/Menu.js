@@ -25,6 +25,9 @@ function Menu() {
   useEffect(() => {
     window.addEventListener("scroll", onScroll);
   });
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   // Cara baru bikin function
   const onScroll = (e) => {

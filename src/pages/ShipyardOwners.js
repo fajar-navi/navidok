@@ -8,7 +8,7 @@ const ShipyardOwners = () => {
     return (
         <Fragment>
             <Menu />
-            <ImgBg title={"Our Users "} src={"https://media.gettyimages.com/id/640971129/photo/vintage-maritime-history-photo-of-the-rms-titanics-propellers-as-the-mighty-ship-sits-in-dry.jpg?s=2048x2048&w=gi&k=20&c=lH993IQGlvLlSGe1LlqvD7qQArh2oy0-13Ny9zHa35s="}/>
+            <ImgBg title={"Our Users "} src={"assets/img/header-05.jpg"}/>
 
             <section id="about" className="section-small">
                 <div className="container">
