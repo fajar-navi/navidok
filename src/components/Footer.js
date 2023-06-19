@@ -42,7 +42,7 @@ return(
                 <h6 className="no-pad-foot"><HashLink smooth to="/#contact" onClick={onNavbarClick}>Contact Us</HashLink></h6>
                 <h6 className="no-pad-foot"><HashLink smooth to="/#contact" onClick={onNavbarClick}>Technical Support</HashLink></h6>
               </div>
-              <div className="col-sm-2 col-sm-offset-1 footer-menu">
+              <div className="col-sm-2 col-sm-offset-1 footer-menu text-md-left text-center">
                 <h4>FIND US</h4>
                 <Link to={{ pathname: "https://facebook.com" }} target="_blank">
                   <i className="fa fa-facebook fa-fw fa-lg" style={{ textAlign: "left" }} />
@@ -52,7 +52,10 @@ return(
                 <Link to={{ pathname: "https://instagram" }} target="_blank">
                   <i className="fa fa-instagram fa-fw fa-lg" /></Link>
 
-                <img src="../assets/img/download.png" style={{maxWidth: '100px', marginTop: '10px'}} />
+                <Link className="text-md-left text-center" to={{ pathname: "https://apple.com/id/app-store/" }} target="_blank">
+                  <img src="../assets/img/download-app-store.png" style={{maxWidth: '100px', marginTop: '10px', display:'block'}} /></Link>
+                <Link className="text-md-left text-center"  to={{ pathname: "https://play.google.com/" }} target="_blank">
+                  <img src="../assets/img/download-google-play.png" style={{maxWidth: '100px', marginTop: '10px', display:'block'}} /></Link>
               </div>
             </div>
           </div>

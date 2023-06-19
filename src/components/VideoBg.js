@@ -7,11 +7,11 @@ export function VideoBg(){
 
     return (
         <Fragment>
-            <div>
+            <div style={{height: '100vH'}} >
                 <div className="container intro intro-body main-vid-text">
                     <CarouselHome/>
                 </div>
-                <video className="intro z-10" autoPlay loop muted >
+                <video className="intro z-10 ob-fit-cover" autoPlay loop muted >
                     <source src={sample} type='video/mp4' />
                 </video>
             </div>

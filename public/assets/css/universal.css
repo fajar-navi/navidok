@@ -2027,3 +2027,17 @@ li .shop-cart {
   color: #fff;}
 
 .orange {color: #fe7e00 !important;}
+
+.text-md-left {
+  text-align: left !important;
+}
+.ob-fit-cover {object-fit: cover;}
+
+@media (max-width: 991px) {
+  .text-md-left {
+    text-align: -webkit-center !important;margin-top: 30px;
+  }
+  .footer h4, .footer h5, .footer h6 {
+    margin-bottom: 0;
+  }
+}

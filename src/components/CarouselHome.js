@@ -1,5 +1,6 @@
 import React from "react";
 import Carousel from 'better-react-carousel'
+import '../assets/css/arrow.css'
 
 export function CarouselHome(){
     return (

@@ -1,6 +1,6 @@
 import React, {Fragment, useEffect, useState} from "react";
 import { Link } from "react-router-dom";
-
+import '../assets/css/arrow.css'
 import {HashLink} from "react-router-hash-link";
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import { faCoffee } from '@fortawesome/fontawesome-free-solid'
@@ -68,11 +68,11 @@ return(
             <li className='nav-items' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} >
               <Link className='nav-links' onClick={closeMobileMenu}> OUR USERS <i className='fas fa-caret-down' />
                 {/*{dropdown && <DropDown />}*/}
-                <ul className={`${dropdown?"dropdown":"hide"}`}>
-                  <li><Link to="/shipowners">SHIPOWNERS & OPERATORS</Link></li>
-                  <li><Link to="/shipyardowners">SHIPYARD OWNERS </Link></li>
-                  <li><Link to="/supportingindustries">SUPPORTING INDUSTRIES </Link></li>
-                  <li><Link to="/individuals">INDIVIDUALS </Link></li>
+                <ul className={`${dropdown?"dropdown":"hide"} ddn`}>
+                  <li><Link to="/shipowners" className={'has-submenu subm'}>SHIPOWNERS & OPERATORS</Link></li>
+                  <li><Link to="/shipyardowners" className={'has-submenu subm'}>SHIPYARD OWNERS </Link></li>
+                  <li><Link to="/supportingindustries" className={'has-submenu subm'}>SUPPORTING INDUSTRIES </Link></li>
+                  <li ><Link to="/individuals"className={'has-submenu subm'}>INDIVIDUALS </Link></li>
                 </ul>
               </Link>
 
