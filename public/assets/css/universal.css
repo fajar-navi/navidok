@@ -2041,3 +2041,7 @@ li .shop-cart {
     margin-bottom: 0;
   }
 }
+
+.w80 {width: 80%;    margin: 0 auto;}
+.w75 {width: 75%;    margin: 0 auto;}
+.h100 {height: 100% !important;}
