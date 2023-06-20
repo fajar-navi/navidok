@@ -6,7 +6,7 @@ function MaritimeSocialMedia() {
     return (
         <Fragment>
             <Menu />
-            <ImgBg title={"Products"} src={"assets/img/header-07.jpg"}/>
+            <ImgBg title={"Products"} src={"assets/img/header-15.jpg"}/>
             <div className="container">
                 <h1>Maritime Social Media</h1>
             </div>

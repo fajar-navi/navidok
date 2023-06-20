@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import Menu from "../components/Menu";
 import {VideoBg} from "../components/VideoBg";
+import ProdSwp from "./ProdSwp";
 
 
 
@@ -55,7 +56,7 @@ We currently serve in selected areas</p>
           </div>
         </section>
 
-        <section id="services" className="text-center">
+        <section id="services" className="text-center"  style={{marginBottom: '-100px'}}>
           <div className="container text-center">
             <div className="row">
               <div className="col-lg-8 col-lg-offset-2">
@@ -82,62 +83,62 @@ We currently serve in selected areas</p>
           </div>
         </section>
 
+    <ProdSwp />
+        {/*<section id="action-slider" style={{paddingTop: '0px'}}>*/}
+        {/*  <div className="container">*/}
+        {/*    <div className="row">*/}
+        {/*      <div className="col-lg-12" style={{textAlign: 'center'}}>*/}
+        {/*        <h3 className="title"><span style={{color: '#283891'}}>Our</span> Products</h3></div>*/}
+        {/*    </div>*/}
+        {/*    <div className="row">*/}
+        {/*      <div className="col-lg-12">*/}
+        {/*        <div id="carousel-light" className="carousel slide">*/}
+        {/*          <ol className="carousel-indicators">*/}
+        {/*            <li data-target="#carousel-light" data-slide-to={0} className="active" />*/}
+        {/*            <li data-target="#carousel-light" data-slide-to={1} />*/}
+        {/*            <li data-target="#carousel-light" data-slide-to={2} />*/}
+        {/*            <li data-target="#carousel-light" data-slide-to={3} />*/}
+        {/*          </ol>*/}
+        {/*          <div role="listbox" className="carousel-inner">*/}
+        {/*            <div className="item active" style={{backgroundImage: 'url("assets/img/bg_product.jpg")', height: '555px'}}>*/}
+        {/*              <div className="col-lg-6">*/}
+        {/*              </div>*/}
+        {/*              <div className="col-lg-6">						*/}
+        {/*                <h1 className="heading title-dark mt-7 font-blue">NaviFIND</h1>*/}
+        {/*                <p className="para-desc mx-auto">It is a highly specialized marine search engine coupled with some specific powerful tools to find answers for maritime queries faster, better, and cheaper.</p>*/}
+        {/*              </div></div>*/}
+        {/*            <div className="item" style={{backgroundImage: 'url("assets/img/bg_product.jpg")', height: '555px'}}>*/}
+        {/*              <div className="col-lg-6">*/}
+        {/*              </div>*/}
+        {/*              <div className="col-lg-6">						*/}
+        {/*                <h1 className="heading title-dark mt-7 font-blue">NaviGLOBE</h1>*/}
+        {/*                <p className="para-desc mx-auto">A maritime Globe that enables users to have a better sense of connectivity and information</p>*/}
+        {/*              </div></div>*/}
+        {/*            <div className="item" style={{backgroundImage: 'url("assets/img/bg_product.jpg")', height: '555px'}}>*/}
+        {/*              <div className="col-lg-6">*/}
+        {/*              </div>*/}
+        {/*              <div className="col-lg-6">						*/}
+        {/*                <h1 className="heading title-dark mt-7 font-blue">Maritime Social Media</h1>*/}
+        {/*                <p className="para-desc mx-auto">An interactive digital forum where all maritime stakeholders will encounter one another</p>*/}
+        {/*              </div></div>*/}
+        {/*            <div className="item" style={{backgroundImage: 'url("assets/img/bg_product.jpg")', height: '555px'}}>*/}
+        {/*              <div className="col-lg-6">*/}
+        {/*              </div>*/}
+        {/*              <div className="col-lg-6">						*/}
+        {/*                <h1 className="heading title-dark mt-7 font-blue">Get Intel!</h1>*/}
+        {/*                <p className="para-desc mx-auto">We Bring Magic to Shipyards owners*/}
+        {/*                  And those who must find ships for their drydock(s)<br />*/}
+        {/*                  Drop us an email at magic@navidok.com and we will send you the spell</p>*/}
+        {/*              </div></div>*/}
+        {/*          </div>*/}
+        {/*        </div>*/}
+        {/*      </div>*/}
+        {/*    </div>*/}
+        {/*  </div>*/}
 
-        <section id="action-slider" style={{paddingTop: '0px'}}>
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12" style={{textAlign: 'center'}}>
-                <h3 className="title"><span style={{color: '#283891'}}>Our</span> Products</h3></div>
-            </div>
-            <div className="row">
-              <div className="col-lg-12">
-                <div id="carousel-light" className="carousel slide">
-                  <ol className="carousel-indicators">
-                    <li data-target="#carousel-light" data-slide-to={0} className="active" />
-                    <li data-target="#carousel-light" data-slide-to={1} />
-                    <li data-target="#carousel-light" data-slide-to={2} />
-                    <li data-target="#carousel-light" data-slide-to={3} />
-                  </ol>
-                  <div role="listbox" className="carousel-inner">
-                    <div className="item active" style={{backgroundImage: 'url("assets/img/bg_product.jpg")', height: '555px'}}>
-                      <div className="col-lg-6">
-                      </div>
-                      <div className="col-lg-6">						
-                        <h1 className="heading title-dark mt-7 font-blue">NaviFIND</h1>
-                        <p className="para-desc mx-auto">It is a highly specialized marine search engine coupled with some specific powerful tools to find answers for maritime queries faster, better, and cheaper.</p>
-                      </div></div>
-                    <div className="item" style={{backgroundImage: 'url("assets/img/bg_product.jpg")', height: '555px'}}>
-                      <div className="col-lg-6">
-                      </div>
-                      <div className="col-lg-6">						
-                        <h1 className="heading title-dark mt-7 font-blue">NaviGLOBE</h1>
-                        <p className="para-desc mx-auto">A maritime Globe that enables users to have a better sense of connectivity and information</p>
-                      </div></div>
-                    <div className="item" style={{backgroundImage: 'url("assets/img/bg_product.jpg")', height: '555px'}}>
-                      <div className="col-lg-6">
-                      </div>
-                      <div className="col-lg-6">						
-                        <h1 className="heading title-dark mt-7 font-blue">Maritime Social Media</h1>
-                        <p className="para-desc mx-auto">An interactive digital forum where all maritime stakeholders will encounter one another</p>
-                      </div></div>
-                    <div className="item" style={{backgroundImage: 'url("assets/img/bg_product.jpg")', height: '555px'}}>
-                      <div className="col-lg-6">
-                      </div>
-                      <div className="col-lg-6">						
-                        <h1 className="heading title-dark mt-7 font-blue">Get Intel!</h1>
-                        <p className="para-desc mx-auto">We Bring Magic to Shipyards owners
-                          And those who must find ships for their drydock(s)<br />
-                          Drop us an email at magic@navidok.com and we will send you the spell</p>
-                      </div></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <a href="#carousel-light" data-slide="prev" className="left carousel-control"><span className="icon-prev" /></a>
-          <a href="#carousel-light" data-slide="next" className="right carousel-control"><span className="icon-next" /></a>
-        </section>
+        {/*  <a href="#carousel-light" data-slide="prev" className="left carousel-control"><span className="icon-prev" /></a>*/}
+        {/*  <a href="#carousel-light" data-slide="next" className="right carousel-control"><span className="icon-next" /></a>*/}
+        {/*</section>*/}
         
         <section id="contact" style={{background: 'url(assets/img/bg_contact3.jpg) no-repeat center center', WebkitBackgroundSize: 'cover', MozBackgroundSize: 'cover', OBackgroundSize: 'cover', backgroundSize: 'cover'}}>
           <div className="container">

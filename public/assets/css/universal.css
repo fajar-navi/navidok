@@ -2045,3 +2045,16 @@ li .shop-cart {
 .w80 {width: 80%;    margin: 0 auto;}
 .w75 {width: 75%;    margin: 0 auto;}
 .h100 {height: 100% !important;}
+.prdct {
+  max-width: 600px;
+  margin-top: 2%;
+}
+.img-prdc{height: 555px}
+
+@media (max-width: 1200px) {
+  .prdct {
+    position: absolute;
+    bottom: -120px;
+  }
+  .img-prdc{height: 350px}
+}

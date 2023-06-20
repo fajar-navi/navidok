@@ -7,7 +7,7 @@ function NaviFind() {
     return (
         <Fragment>
             <Menu />
-            <ImgBg title={"Products"} src={"assets/img/header-07.jpg"}/>
+            <ImgBg title={"Products"} src={"assets/img/header-13.jpg"}/>
             <div className="container">
                 <h1>Navi Find</h1>
             </div>

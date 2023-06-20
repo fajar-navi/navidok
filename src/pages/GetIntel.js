@@ -7,7 +7,7 @@ function GetIntel() {
     return (
         <Fragment>
             <Menu />
-            <ImgBg title={"Products"} src={"assets/img/header-07.jpg"}/>
+            <ImgBg title={"Products"} src={"assets/img/header-12.jpg"}/>
             <div className="container">
                 <h1>Get Intel!</h1>
             </div>
