@@ -3,8 +3,7 @@ import { Link } from "react-router-dom";
 import '../assets/css/arrow.css'
 import {HashLink} from "react-router-hash-link";
 import ddwn from "../img/down-arrow-svgrepo-com.svg"
-import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/fontawesome-free-solid'
+import imgLogo from "../assets/img/logo-navidok.png";
 
 function Menu() {
 
@@ -62,8 +61,8 @@ return(
             <span className="sr-only">Toggle navigation</span><span className="icon-bar"></span><span className="icon-bar"></span><span className="icon-bar"></span></button>
           <a href="/" className="navbar-brand page-scroll">
 
-            <img src="../assets/img/logo-navidok.png" alt="Logo" className="logo" />
-                <img src="../assets/img/logo-navidok.png" alt="Logo" className="logodark" /></a>
+            <img src={imgLogo}  alt="Logo" className="logo" />
+                <img src={imgLogo} alt="Logo" className="logodark" /></a>
         </div>
         <div className="collapse navbar-collapse navbar-main-collapse">
           <ul className="nav navbar-nav navbar-left">

@@ -855,20 +855,20 @@ a.btn-nav .btn {
   color: #fff !important;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); }
 
-.bg-img {
-  background: url(../img/header/19.jpg); }
+/*.bg-img {*/
+/*  background: url(../img/header/19.jpg); }*/
 
-.bg-img2 {
-  background: url(../img/header/17.jpg); }
+/*.bg-img2 {*/
+/*  background: url(../img/header/17.jpg); }*/
 
-.bg-img3 {
-  background: url(../img/impact-bg-image.jpg); }
+/*.bg-img3 {*/
+/*  background: url(../img/impact-bg-image.jpg); }*/
 
-.bg-img4 {
-  background: url(../img/the-company-bg-image.jpg); }
+/*.bg-img4 {*/
+/*  background: url(../img/the-company-bg-image.jpg); }*/
 
-.bg-img5 {
-  background: url(../img/header/18.jpg); }
+/*.bg-img5 {*/
+/*  background: url(../img/header/18.jpg); }*/
 
 .bg-img, .bg-img2, .bg-img3, .bg-img4, .bg-img5 {
   background-attachment: fixed;

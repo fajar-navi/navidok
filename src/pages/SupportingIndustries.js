@@ -2,31 +2,35 @@ import React, {Fragment} from "react";
 import Footer from "../components/Footer";
 import Menu from "../components/Menu";
 import ImgBg from "../components/ImgBg";
+import bg_Header from "../assets/img/header-04.jpg";
+import iconNaviGlobe from "../assets/img/icon-naviglobe.jpg";
+import iconNaviFind from "../assets/img/icon-navifind.jpg";
+import icon3 from "../assets/img/icon-3.png";
 
 
 const SupportingIndustries = () => {
     return (
         <Fragment>
             <Menu />
-            <ImgBg title={"Our Users    "} src={"assets/img/header-04.jpg"}/>
+            <ImgBg title={"Our Users"} src={bg_Header} />
 
             <section id="about" className="section-small">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-2"><img src="/assets/img/icon-3.png" className="icons" alt=""/>
+                        <div className="col-lg-2"><img src={icon3} className="icons" alt=""/>
                         </div>
                         <div className="col-lg-10">
                             <h2 className="font-blue">Supporting Industries</h2>
 
                             <div className="row">
                                 <div className="col-lg-5 box-rounded">
-                                    <img src="/assets/img/icon-navifind.jpg" className="icons" alt=""/>
+                                    <img src={iconNaviFind} className="icons" alt="" />
                                     <p className="no-pad"><strong>In NaviFIND you could get;</strong><br/>
                                         This is where every maritime industry players find everything and anything related to ship, shipyard, port, and supporting industry needs as we are populating all relevance maritime information and equip it with technological tools to hope could be faster, better, and cheaper for your establishments. Navidok aligns your products and services through various tools within our platform and helps you scale up in an unprecedented way.</p>
                                 </div>
                                 <div className="col-lg-1"></div>
                                 <div className="col-lg-5 box-rounded">
-                                    <img src="/assets/img/icon-naviglobe.jpg" className="icons" alt=""/>
+                                    <img src={iconNaviGlobe} className="icons" alt="" />
                                     <p className="no-pad"><strong>In NaviGLOBE you could get;</strong><br/>
                                         This will be the maritime industry players' globe to make their tasks and jobs, hopefully, easier and more fun to do. At their fingertips, they could see and explore ports and shipyards all over the world and have a sense of what they are trying to achieve with their ships, shipyards, and ports.</p>
                                 </div>

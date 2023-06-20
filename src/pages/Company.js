@@ -2,14 +2,15 @@ import React, {Fragment, Component} from "react";
 import Footer from "../components/Footer";
 import Menu from "../components/Menu";
 import ImgBg from "../components/ImgBg";
-
+import bg_Header from "../assets/img/header-01.jpg";
+import imgGenco from "../assets/img/genco.jpg";
 
 
 function Company() {
 return(
     <Fragment>
     <Menu />
-    <ImgBg trading={"crypto"} title={"The Company"} src={"assets/img/header-01.jpg"}/>
+    <ImgBg trading={"crypto"} title={"The Company"}  src={bg_Header} />
     {/*<header data-background="assets/img/bg-video.jpg" className="intro introhalf">*/}
     {/*  <div className="intro-body">*/}
     {/*    <h1>The Company</h1>*/}
@@ -53,11 +54,11 @@ sustainability</p>
 			<p className="no-pad">Navidok is committed to protecting the privacy and personal data of its users. This Data Protection Policy outlines how we collect, use, store, and protect personal information obtained through the use of our mobile app. By using our app, you consent to the practices described in this policy.
 </p>
 <p>
-    <img src="assets/img/genco.jpg" alt="" className="img-responsive center-block mt-7"/></p>
+    <img src={imgGenco} alt="" className="img-responsive center-block mt-7"/></p>
 
           </div>
         </div>
-        
+
       </div>
     </section>
         

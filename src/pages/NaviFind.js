@@ -2,12 +2,13 @@ import React, {Fragment, Component} from "react";
 import Footer from "../components/Footer";
 import Menu from "../components/Menu";
 import ImgBg from "../components/ImgBg";
-
+// images
+import bg_Header from './../assets/img/header-13.jpg';
 function NaviFind() {
     return (
         <Fragment>
             <Menu />
-            <ImgBg title={"Products"} src={"assets/img/header-13.jpg"}/>
+            <ImgBg title="Products" src={bg_Header} />
             <div className="container">
                 <h1>Navi Find</h1>
             </div>

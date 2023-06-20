@@ -2,31 +2,34 @@ import React, {Fragment} from "react";
 import Footer from "../components/Footer";
 import Menu from "../components/Menu";
 import ImgBg from "../components/ImgBg";
-
+import bg_Header from "../assets/img/header-05.jpg";
+import icon2 from './../assets/img/icon-2.png';
+import iconNaviFind from './../assets/img/icon-navifind.jpg';
+import iconNaviGlobe from './../assets/img/icon-naviglobe.jpg';
 
 const ShipyardOwners = () => {
     return (
         <Fragment>
             <Menu />
-            <ImgBg title={"Our Users "} src={"assets/img/header-05.jpg"}/>
+            <ImgBg title={"Our Users "}  src={bg_Header} />
 
             <section id="about" className="section-small">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-2"><img src="/assets/img/icon-2.png" className="icons" alt=""/></div>
+                        <div className="col-lg-2"><img src={icon2} className="icons" alt=""/></div>
                         <div className="col-lg-10">
 
                             <h2 className="font-blue">Shipyard Owners</h2>
 
                             <div className="row">
                                 <div className="col-lg-5 box-rounded">
-                                    <img src="/assets/img/icon-navifind.jpg" className="icons" alt=""/>
+                                    <img src={iconNaviFind} className="icons" alt="" />
                                     <p className="no-pad"><strong>In NaviFIND you could get;</strong><br/>
                                         This is where you (as a shipyard owner), ship owner, and all supporting industries can find everything and anything related to your ship, equipment, parts needs as we are populating all relevant maritime information and equipping it to make decisions, which we hope could be faster, better, and cheaper for your shipyard. Particularly in this phase, we have created a special tool which shipowners will use to find drydocks and connect with them. Additional sophisticated, yet easy-to-use features will be added to make drydocking information integrated on a new global scale. Shipyard owners will benefit from a vast amount of valuable data in the most democratized way.</p>
                                 </div>
                                 <div className="col-lg-1"></div>
                                 <div className="col-lg-5 box-rounded">
-                                    <img src="/assets/img/icon-naviglobe.jpg" className="icons" alt=""/>
+                                    <img src={iconNaviGlobe} className="icons" alt="" />
                                     <p className="no-pad"><strong>In NaviGLOBE you could get;</strong><br/>
                                         This will be your globe to make your tasks and jobs, hopefully, easier and more fun to do. At your fingertips, you could see and explore ports and shipyards all over the world and have a sense of what you are trying to achieve with your ship. Shipowners will use this globe to have a better sense of feeling so they could make decisions faster, better, and cheaper. You can make your shipyard stand out from the rest by using some boosting features to grab the attention of ship owners.</p>
                                 </div>

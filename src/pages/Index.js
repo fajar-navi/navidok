@@ -5,7 +5,14 @@ import Menu from "../components/Menu";
 import {VideoBg} from "../components/VideoBg";
 import ProdSwp from "./ProdSwp";
 
-
+// images
+import bg_Contact from './../assets/img/bg_contact3.jpg';
+import bg_Service from './../assets/img/the-company-bg-image.jpg';
+import bg_Impact from './../assets/img/impact-bg-image.jpg';
+import icon1 from './../assets/img/icon-1.png';
+import icon2 from './../assets/img/icon-2.png';
+import icon3 from './../assets/img/icon-3.png';
+import icon4 from './../assets/img/icon-4.png';
 
 function Index() {
 return(
@@ -16,31 +23,21 @@ return(
   <Menu />
   <VideoBg/>
 
-    {/*  <header data-background="assets/img/bg-video.jpg" className="intro">*/}
-    {/*  <div className="intro-body">*/}
-	{/*	  <h1>YOUR ALIGNMENT</h1>*/}
-    {/*    <h4>In Maritime Industry</h4>*/}
-    {/*    */}
-    {/*    <div data-wow-delay="1s" class="scroll-btn wow fadeInDown">*/}
-    {/*        /!* <a href="#about" class="page-scroll"></a> *!/*/}
-    {/*    </div>*/}
-    {/*  </div>*/}
-    {/*</header>*/}
-        
-        <section id="services" className="bg-img4 text-center">
-          <div className="container">
+    <section id="services" style={{ background: `url(${bg_Service}) no-repeat center center`, WebkitBackgroundSize: 'cover', MozBackgroundSize: 'cover', backgroundSize: 'cover' }} className="text-center">
+
+    <div className="container">
             <div className="row" style={{textAlign: 'right'}}>
               <div data-wow-duration="2s" data-wow-delay=".2s" className="col-lg-2 col-lg-offset-1 wow zoomIn">
               </div>
               <div data-wow-duration="2s" data-wow-delay=".2s" className="col-lg-10 col-lg-offset-1 wow slideInLeft animated">
                 <h3 className="title">The Company</h3>
-                <p className="no-pad" style={{maxWidth: '450px', float: 'right'}}>Navidok is a maritime technology company which aligns maritime stakeholders and energizes connectivity through innovative solutions based on better value propositions.
+                <p className="no-pad" style={{maxWidth: '450px', float: 'right', color: '#d9d9d9'}}>Navidok is a maritime technology company which aligns maritime stakeholders and energizes connectivity through innovative solutions based on better value propositions.
 We currently serve in selected areas</p>
               </div>
             </div>
           </div>
         </section>
-        <section id="services" className="bg-img3">
+    <section id="impact" style={{ background: `url(${bg_Impact}) no-repeat center center`, WebkitBackgroundSize: 'cover', MozBackgroundSize: 'cover', backgroundSize: 'cover' }}>
           <div className="container">
             <div className="row">
               <div data-wow-duration="2s" data-wow-delay=".2s" className="col-lg-9 wow slideInRight animated">
@@ -64,19 +61,19 @@ We currently serve in selected areas</p>
             </div>
             <div className="row">
               <div data-wow-delay=".2s" className="col-lg-3 col-sm-6 wow fadeIn">
-                <Link to="/shipowners"><img src="../assets/img/icon-1.png" className="icons" alt="" />
+                <Link to="/shipowners"><img src={icon1} className="icons" alt="" />
                 <h4 className="font-lightblue"> Shipowners &amp; Operators</h4></Link>
               </div>
               <div data-wow-delay=".4s" className="col-lg-3 col-sm-6 wow fadeIn">
-                <Link to="/shipyardowners"><img src="../assets/img/icon-2.png" className="icons " alt="" />
+                <Link to="/shipyardowners"><img src={icon2} className="icons " alt="" />
                 <h4 className="font-lightblue"> Shipyard Owners</h4></Link>
               </div>
               <div data-wow-delay=".6s" className="col-lg-3 col-sm-6 wow fadeIn">
-                <Link to="/supportingindustries"><img src="../assets/img/icon-3.png" className="icons " alt="" />
+                <Link to="/supportingindustries"><img src={icon3} className="icons " alt="" />
                 <h4 className="font-lightblue"> Supporting Industries</h4></Link>
               </div>
               <div data-wow-delay=".8s" className="col-lg-3 col-sm-6 wow fadeIn">
-                <Link to="/individuals"><img src="../assets/img/icon-4.png" className="icons " alt="" />
+                <Link to="/individuals"><img src={icon4} className="icons " alt="" />
                 <h4 className="font-lightblue"> Individuals</h4></Link>
               </div>
             </div>
@@ -84,63 +81,8 @@ We currently serve in selected areas</p>
         </section>
 
     <ProdSwp />
-        {/*<section id="action-slider" style={{paddingTop: '0px'}}>*/}
-        {/*  <div className="container">*/}
-        {/*    <div className="row">*/}
-        {/*      <div className="col-lg-12" style={{textAlign: 'center'}}>*/}
-        {/*        <h3 className="title"><span style={{color: '#283891'}}>Our</span> Products</h3></div>*/}
-        {/*    </div>*/}
-        {/*    <div className="row">*/}
-        {/*      <div className="col-lg-12">*/}
-        {/*        <div id="carousel-light" className="carousel slide">*/}
-        {/*          <ol className="carousel-indicators">*/}
-        {/*            <li data-target="#carousel-light" data-slide-to={0} className="active" />*/}
-        {/*            <li data-target="#carousel-light" data-slide-to={1} />*/}
-        {/*            <li data-target="#carousel-light" data-slide-to={2} />*/}
-        {/*            <li data-target="#carousel-light" data-slide-to={3} />*/}
-        {/*          </ol>*/}
-        {/*          <div role="listbox" className="carousel-inner">*/}
-        {/*            <div className="item active" style={{backgroundImage: 'url("assets/img/bg_product.jpg")', height: '555px'}}>*/}
-        {/*              <div className="col-lg-6">*/}
-        {/*              </div>*/}
-        {/*              <div className="col-lg-6">						*/}
-        {/*                <h1 className="heading title-dark mt-7 font-blue">NaviFIND</h1>*/}
-        {/*                <p className="para-desc mx-auto">It is a highly specialized marine search engine coupled with some specific powerful tools to find answers for maritime queries faster, better, and cheaper.</p>*/}
-        {/*              </div></div>*/}
-        {/*            <div className="item" style={{backgroundImage: 'url("assets/img/bg_product.jpg")', height: '555px'}}>*/}
-        {/*              <div className="col-lg-6">*/}
-        {/*              </div>*/}
-        {/*              <div className="col-lg-6">						*/}
-        {/*                <h1 className="heading title-dark mt-7 font-blue">NaviGLOBE</h1>*/}
-        {/*                <p className="para-desc mx-auto">A maritime Globe that enables users to have a better sense of connectivity and information</p>*/}
-        {/*              </div></div>*/}
-        {/*            <div className="item" style={{backgroundImage: 'url("assets/img/bg_product.jpg")', height: '555px'}}>*/}
-        {/*              <div className="col-lg-6">*/}
-        {/*              </div>*/}
-        {/*              <div className="col-lg-6">						*/}
-        {/*                <h1 className="heading title-dark mt-7 font-blue">Maritime Social Media</h1>*/}
-        {/*                <p className="para-desc mx-auto">An interactive digital forum where all maritime stakeholders will encounter one another</p>*/}
-        {/*              </div></div>*/}
-        {/*            <div className="item" style={{backgroundImage: 'url("assets/img/bg_product.jpg")', height: '555px'}}>*/}
-        {/*              <div className="col-lg-6">*/}
-        {/*              </div>*/}
-        {/*              <div className="col-lg-6">						*/}
-        {/*                <h1 className="heading title-dark mt-7 font-blue">Get Intel!</h1>*/}
-        {/*                <p className="para-desc mx-auto">We Bring Magic to Shipyards owners*/}
-        {/*                  And those who must find ships for their drydock(s)<br />*/}
-        {/*                  Drop us an email at magic@navidok.com and we will send you the spell</p>*/}
-        {/*              </div></div>*/}
-        {/*          </div>*/}
-        {/*        </div>*/}
-        {/*      </div>*/}
-        {/*    </div>*/}
-        {/*  </div>*/}
 
-        {/*  <a href="#carousel-light" data-slide="prev" className="left carousel-control"><span className="icon-prev" /></a>*/}
-        {/*  <a href="#carousel-light" data-slide="next" className="right carousel-control"><span className="icon-next" /></a>*/}
-        {/*</section>*/}
-        
-        <section id="contact" style={{background: 'url(assets/img/bg_contact3.jpg) no-repeat center center', WebkitBackgroundSize: 'cover', MozBackgroundSize: 'cover', OBackgroundSize: 'cover', backgroundSize: 'cover'}}>
+    <section id="contact" style={{ background: `url(${bg_Contact}) no-repeat center center`, WebkitBackgroundSize: 'cover', MozBackgroundSize: 'cover', backgroundSize: 'cover' }}>
           <div className="container">
             <div className="row">
               <div className="col-lg-12">

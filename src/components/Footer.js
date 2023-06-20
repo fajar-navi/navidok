@@ -1,8 +1,10 @@
 import React, {Fragment} from "react";
 import { Link } from "react-router-dom";
-
 import {HashLink} from "react-router-hash-link";
 
+// images
+import appStoreImage from "./../assets/img/download-app-store.png";
+import playStoreImage from "./../assets/img/download-app-store.png";
 const onNavbarClick = (e) => {
   const navbarMainCollapse = document.querySelector(".navbar-main-collapse");
   navbarMainCollapse.classList.contains("in")
@@ -53,9 +55,9 @@ return(
                   <i className="fa fa-instagram fa-fw fa-lg" /></Link>
 
                 <Link className="text-md-left text-center" to={{ pathname: "https://apple.com/id/app-store/" }} target="_blank">
-                  <img src="../assets/img/download-app-store.png" style={{maxWidth: '100px', marginTop: '10px', display:'block'}} /></Link>
+                  <img src={appStoreImage} style={{maxWidth: '100px', marginTop: '10px', display:'block'}} alt="" /></Link>
                 <Link className="text-md-left text-center"  to={{ pathname: "https://play.google.com/" }} target="_blank">
-                  <img src="../assets/img/download-google-play.png" style={{maxWidth: '100px', marginTop: '10px', display:'block'}} /></Link>
+                  <img src={playStoreImage} style={{maxWidth: '100px', marginTop: '10px', display:'block'}} alt="" /></Link>
               </div>
             </div>
           </div>
