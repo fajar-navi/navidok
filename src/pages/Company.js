@@ -2,8 +2,9 @@ import React, {Fragment, Component} from "react";
 import Footer from "../components/Footer";
 import Menu from "../components/Menu";
 import ImgBg from "../components/ImgBg";
-import bg_Header from "../assets/img/header-01.jpg";
+import bg_Header from "../assets/img/header-03.jpg";
 import imgGenco from "../assets/img/genco.jpg";
+import bg_Impact from "../assets/img/impact-bg-image.jpg";
 
 
 function Company() {
@@ -42,7 +43,7 @@ sustainability</p>
       </div>
     </section>
     
-	<section className="quote section-small bg-img4 text-center" >
+	<section className="quote section-small text-center"  style={{ background: `url(${bg_Impact}) no-repeat center center`, WebkitBackgroundSize: 'cover', MozBackgroundSize: 'cover', backgroundSize: 'cover' }}>
       <div className="container text-center">
         <div className="row">
           <div className="col-lg-12">

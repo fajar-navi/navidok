@@ -2,7 +2,7 @@ import React, {Fragment} from "react";
 import Footer from "../components/Footer";
 import Menu from "../components/Menu";
 import ImgBg from "../components/ImgBg";
-import bg_Header from "../assets/img/header-04.jpg";
+import bg_Header from "../assets/img/header-06.jpg";
 import iconNaviGlobe from "../assets/img/icon-naviglobe.jpg";
 import iconNaviFind from "../assets/img/icon-navifind.jpg";
 import icon3 from "../assets/img/icon-3.png";

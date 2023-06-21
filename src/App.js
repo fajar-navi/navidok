@@ -1,5 +1,8 @@
 
 import './App.css';
+import './index.css'
+// import './assets/css/bootstrap.min.css'
+// import './font-awesome.min.css'
 import Index from './pages/Index';
 import Company from './pages/Company';
 import ShipOwners from './pages/ShipOwners';

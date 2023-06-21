@@ -2,7 +2,7 @@ import React, {Fragment, Component} from "react";
 import Footer from "../components/Footer";
 import Menu from "../components/Menu";
 import ImgBg from "../components/ImgBg";
-import bg_Header from "../assets/img/header-08.jpg";
+import bg_Header from "../assets/img/header-07.jpg";
 
 function DataProtection() {
     return (

@@ -4,7 +4,7 @@ import {HashLink} from "react-router-hash-link";
 
 // images
 import appStoreImage from "./../assets/img/download-app-store.png";
-import playStoreImage from "./../assets/img/download-app-store.png";
+import playStoreImage from "./../assets/img/download-google-play.png";
 const onNavbarClick = (e) => {
   const navbarMainCollapse = document.querySelector(".navbar-main-collapse");
   navbarMainCollapse.classList.contains("in")

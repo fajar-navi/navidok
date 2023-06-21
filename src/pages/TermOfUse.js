@@ -2,8 +2,7 @@ import React, {Fragment, Component} from "react";
 import Footer from "../components/Footer";
 import Menu from "../components/Menu";
 import ImgBg from "../components/ImgBg";
-import bg_Header from "../assets/img/header-10.jpg";
-import bg_findImage from "../assets/img/bg_find.jpg";
+import bg_Header from "../assets/img/header-14.jpg";
 
 function TermOfUse() {
     return (

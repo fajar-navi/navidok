@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import Menu from "../components/Menu";
 import ImgBg from "../components/ImgBg";
 import ProdSwp from "./ProdSwp";
-import bg_Header from "../assets/img/header-07.jpg";
+import bg_Header from "../assets/img/header-19.jpg";
 
 const Products = () => {
   return (
