@@ -49,14 +49,14 @@ return(
                     <div className="col-lg-10">
                         <h2 className="font-blue">Individuals</h2>
 
-                        <div className="row" style={{padding:"0px"}}>
-                            <div className="col-lg-5 box-rounded">
+                        <div className="row flex-container" style={{padding:"0px"}}>
+                            <div className="col-lg-5 box-rounded column">
                                 <img src={iconNaviFind} className="icons icon-mob-mb30" alt=""  style={{marginBottom:"10px"}}/>
                                 <p className="no-pad"><strong>In NaviFIND you could get;</strong><br/>
                                     This is where you can find everything and anything related to your ship needs as we are populating all relevant maritime information and equipping it with technological tools to help you conduct research and broaden your knowledge and insight.</p>
                             </div>
                             <div className="col-lg-1"></div>
-                            <div className="col-lg-5 box-rounded">
+                            <div className="col-lg-5 box-rounded column bg-alt">
                                 <img src={iconNaviGlobe} className="icons icon-mob-mb30" alt=""  style={{marginBottom:"10px"}}/>
                                 <p className="no-pad"><strong>In NaviGLOBE you could get;</strong><br/>
                                     This will be your globe to make your task and job, hopefully, easier and more fun to do. At your fingertips, you could see and explore ports, shipyards, and ships all over the world and have a sense of what you are trying to accomplish as an individual.</p>

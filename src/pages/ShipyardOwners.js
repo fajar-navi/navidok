@@ -21,14 +21,14 @@ const ShipyardOwners = () => {
 
                             <h2 className="font-blue">Shipyard Owners</h2>
 
-                            <div className="row">
-                                <div className="col-lg-5 box-rounded">
+                            <div className="row flex-container" style={{padding:"0px"}}>
+                                <div className="col-lg-5 box-rounded column">
                                     <img src={iconNaviFind} className="icons icon-mob-mb30" alt=""  style={{marginBottom:"10px"}}/>
                                     <p className="no-pad"><strong>In NaviFIND you could get;</strong><br/>
                                         This is where you (as a shipyard owner), ship owner, and all supporting industries can find everything and anything related to your ship, equipment, parts needs as we are populating all relevant maritime information and equipping it to make decisions, which we hope could be faster, better, and cheaper for your shipyard. Particularly in this phase, we have created a special tool which shipowners will use to find drydocks and connect with them. Additional sophisticated, yet easy-to-use features will be added to make drydocking information integrated on a new global scale. Shipyard owners will benefit from a vast amount of valuable data in the most democratized way.</p>
                                 </div>
                                 <div className="col-lg-1"></div>
-                                <div className="col-lg-5 box-rounded">
+                                <div className="col-lg-5 box-rounded column bg-alt">
                                     <img src={iconNaviGlobe} className="icons icon-mob-mb30" alt=""  style={{marginBottom:"10px"}}/>
                                     <p className="no-pad"><strong>In NaviGLOBE you could get;</strong><br/>
                                         This will be your globe to make your tasks and jobs, hopefully, easier and more fun to do. At your fingertips, you could see and explore ports and shipyards all over the world and have a sense of what you are trying to achieve with your ship. Shipowners will use this globe to have a better sense of feeling so they could make decisions faster, better, and cheaper. You can make your shipyard stand out from the rest by using some boosting features to grab the attention of ship owners.</p>

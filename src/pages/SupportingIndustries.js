@@ -22,14 +22,14 @@ const SupportingIndustries = () => {
                         <div className="col-lg-10">
                             <h2 className="font-blue">Supporting Industries</h2>
 
-                            <div className="row">
-                                <div className="col-lg-5 box-rounded">
+                            <div className="row flex-container">
+                                <div className="col-lg-5 box-rounded column">
                                     <img src={iconNaviFind} className="icons icon-mob-mb30" alt=""  style={{marginBottom:"10px"}}/>
                                     <p className="no-pad"><strong>In NaviFIND you could get;</strong><br/>
                                         This is where every maritime industry players find everything and anything related to ship, shipyard, port, and supporting industry needs as we are populating all relevance maritime information and equip it with technological tools to hope could be faster, better, and cheaper for your establishments. Navidok aligns your products and services through various tools within our platform and helps you scale up in an unprecedented way.</p>
                                 </div>
                                 <div className="col-lg-1"></div>
-                                <div className="col-lg-5 box-rounded">
+                                <div className="col-lg-5 box-rounded column bg-alt">
                                     <img src={iconNaviGlobe} className="icons icon-mob-mb30" alt=""  style={{marginBottom:"10px"}}/>
                                     <p className="no-pad"><strong>In NaviGLOBE you could get;</strong><br/>
                                         This will be the maritime industry players' globe to make their tasks and jobs, hopefully, easier and more fun to do. At their fingertips, they could see and explore ports and shipyards all over the world and have a sense of what they are trying to achieve with their ships, shipyards, and ports.</p>

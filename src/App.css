@@ -365,6 +365,22 @@ a .fa:hover {
   width: auto; }
 
 @media (min-width: 1200px) {
+
+  .flex-container{
+    display: flex; /* Standard syntax */
+  }
+  .flex-container .column{
+    padding: 30px;
+    background: #fff;
+    -webkit-flex: 1; /* Safari */
+    -ms-flex: 1; /* IE 10 */
+    flex: 1; /* Standard syntax */
+  }
+  .flex-container .column.bg-alt{
+    background: #fff;
+  }
+
+
   .numbering {display: inline-block; position: absolute;}
   .pL40 {padding-left: 40px !important;}
   .pL55 {padding-left: 55px !important;}
@@ -2009,7 +2025,7 @@ li .shop-cart a:hover {
 }
 
 .font-blue {
-  color: #283891;
+  color: #283891;line-height: 50px;
 }
 
 .font-dark {
@@ -2032,7 +2048,7 @@ li .shop-cart a:hover {
   border: 1px solid #283891;
   border-radius: 10px;
   padding: 30px;
-  text-align: center;
+  text-align: center;margin: 15px;
 }
 .h2, h2 {
   font-size: 40px !important;
@@ -2067,6 +2083,13 @@ li .shop-cart a:hover {
   .fa-lg {
     font-size: 30px !important;margin: 30px 0px;
   }
+}
+
+@media (max-width: 420px) {
+  .w80 {
+    width: 100% !important;
+  }
+  .w100 {background-position: right 92% bottom !important;}
 }
 @media (max-width: 991px) {
   .h6, h6 {
@@ -2125,7 +2148,8 @@ li .shop-cart a:hover {
 @media (max-width: 1200px) {
   .prdct {
     position: absolute;
-    bottom: 300px; text-align: -webkit-center;
+    bottom: 0px;
+    text-align: -webkit-center;
   }
   .mob-h90 {height: 90vH;}
   .img-prdc {
