@@ -504,7 +504,7 @@ a .fa:hover {
 .navbar-toggle {
   padding: 10px 0; }
 .navbar-toggle .icon-bar {
-  width: 30px;
+  width: 20px;
   border-radius: 0;
   background: #fff; }
 
@@ -1826,7 +1826,7 @@ li .shop-cart a:hover {
     letter-spacing: 0; }
 
   .h4, h4 {
-    font-size: 16px; }
+    font-size: 22px; }
 
   .h2, h2 {
     font-size: 24px; }
@@ -2034,7 +2034,9 @@ li .shop-cart a:hover {
   padding: 30px;
   text-align: center;
 }
-
+.h2, h2 {
+  font-size: 40px !important;
+}
 .z-10 {
   z-index: -10 !important;
 }
@@ -2063,6 +2065,9 @@ li .shop-cart a:hover {
 }
 
 @media (max-width: 991px) {
+  .h6, h6 {
+    font-size: 18px !important;
+  }
   .text-md-left {
     text-align: -webkit-center !important;
     margin-top: 30px;
@@ -2072,12 +2077,24 @@ li .shop-cart a:hover {
   .footer h6 {
     margin-bottom: 0;
   }
+  .w80 {
+    top: 20%;
+  }
+  .icons {
+    width: auto !important;margin-top: 60px;
+  }
+  .box-rounded {margin: 30px !important;
+  }
+  .icon-mob-mb30 {margin-top: 0px;margin-bottom: 30px;}
+  .icon-mob-store {max-width: 150px!important; padding: 10px 0px;}
 }
-
-.w80 {
+.icon-mob-store {max-width: 100px;}
+.w80 {position: relative;
   width: 80%;
   margin: 0 auto;
+  top: 30%;
 }
+
 
 .w75 {
   width: 75%;
@@ -2096,12 +2113,16 @@ li .shop-cart a:hover {
 .img-prdc {
   height: 555px;
 }
+.swiper-button-next, .swiper-button-prev {
+  top: 280px !important;
+}
 
 @media (max-width: 1200px) {
   .prdct {
     position: absolute;
-    bottom: -120px;
+    bottom: 300px; text-align: -webkit-center;
   }
+  .mob-h90 {height: 90vH;}
   .img-prdc {
     height: 350px;
   }

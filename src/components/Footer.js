@@ -54,10 +54,10 @@ return(
                 <Link to={{ pathname: "https://instagram" }} target="_blank">
                   <i className="fa fa-instagram fa-fw fa-lg" /></Link>
 
-                <Link className="text-md-left text-center" to={{ pathname: "https://apple.com/id/app-store/" }} target="_blank">
-                  <img src={appStoreImage} style={{maxWidth: '100px', marginTop: '10px', display:'block'}} alt="" /></Link>
-                <Link className="text-md-left text-center"  to={{ pathname: "https://play.google.com/" }} target="_blank">
-                  <img src={playStoreImage} style={{maxWidth: '100px', marginTop: '10px', display:'block'}} alt="" /></Link>
+                <Link className="text-md-left text-center icon-mob-store" to={{ pathname: "https://apple.com/id/app-store/" }} target="_blank">
+                  <img src={appStoreImage} style={{marginTop: '10px', display:'block'}} alt="" className="icon-mob-store"/></Link>
+                <Link className="text-md-left text-center icon-mob-store"  to={{ pathname: "https://play.google.com/" }} target="_blank">
+                  <img src={playStoreImage} style={{marginTop: '10px', display:'block'}} alt="" className="icon-mob-store"/></Link>
               </div>
             </div>
           </div>

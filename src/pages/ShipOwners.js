@@ -24,13 +24,13 @@ const ShipOwners = () => {
 
                             <div className="row">
                                 <div className="col-lg-5 box-rounded">
-                                    <img src={iconNaviFind} className="icons" alt="" />
+                                    <img src={iconNaviFind} className="icons icon-mob-mb30" alt=""  style={{marginBottom:"10px"}}/>
                                     <p className="no-pad"><strong>In NaviFIND you could get;</strong><br />
                                         This is where you can find everything and anything related to your ship needs as we are populating all relevance maritime information and equip it with technological tools to help you make decisions, which we hope could be faster, better, and cheaper for your ship.</p>
                                 </div>
                                 <div className="col-lg-1"></div>
                                 <div className="col-lg-5 box-rounded">
-                                    <img src={iconNaviGlobe} className="icons" alt="" />
+                                    <img src={iconNaviGlobe} className="icons icon-mob-mb30" alt=""  style={{marginBottom:"10px"}}/>
                                     <p className="no-pad"><strong>In NaviGLOBE you could get;</strong><br />
                                         This is where you can find everything and anything related to your ship needs as we are populating all relevance maritime information and equip it with technological tools to help you make decisions, which we hope could be faster, better, and cheaper for your ship</p>
                                 </div>

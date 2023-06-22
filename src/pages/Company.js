@@ -32,7 +32,7 @@ sustainability</p>
           <div data-wow-duration="2s" data-wow-delay=".2s" className="col-lg-5 col-lg-offset-1 wow zoomIn">
             <div className="carousel slide carousel-fade">
               <div role="listbox" className="carousel-inner">
-                <div className="item active">
+                <div className="item active" style={{marginTop:"50px"}}>
                     <img src="https://media.gettyimages.com/id/916868228/photo/shipyard-maintenance-at-night.jpg?s=612x612&w=0&k=20&c=aFksyeh8cdcK0F_kSodlKiHKcilWRUDI0sMPYx5MxX0="
                          alt="" className="img-responsive center-block"/></div>
               </div>
