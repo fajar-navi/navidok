@@ -5,8 +5,8 @@ import ImgBg from "../components/ImgBg";
 import bg_Header from "../assets/img/header-04.jpg";
 
 import icon1 from './../assets/img/icon-1.png';
-import iconNaviFind from './../assets/img/icon-navifind.jpg';
-import iconNaviGlobe from './../assets/img/icon-naviglobe.jpg';
+import iconNaviFind from '../assets/img/icon-navifind.svg';
+import iconNaviGlobe from '../assets/img/icon-naviglobe.svg';
 
 const ShipOwners = () => {
     return (

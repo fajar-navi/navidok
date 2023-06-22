@@ -3,9 +3,10 @@ import Footer from "../components/Footer";
 import Menu from "../components/Menu";
 import ImgBg from "../components/ImgBg";
 import bg_Header from "../assets/img/header-15.jpg";
-import iconNaviGlobe from "../assets/img/icon-naviglobe.jpg";
-import iconNaviFind from "../assets/img/icon-navifind.jpg";
+import iconNaviFind from '../assets/img/icon-navifind.svg';
+import iconNaviGlobe from '../assets/img/icon-naviglobe.svg';
 import icon4 from "../assets/img/icon-4.png";
+
 
 
 

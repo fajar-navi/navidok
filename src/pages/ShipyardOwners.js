@@ -4,8 +4,8 @@ import Menu from "../components/Menu";
 import ImgBg from "../components/ImgBg";
 import bg_Header from "../assets/img/header-13.jpg";
 import icon2 from './../assets/img/icon-2.png';
-import iconNaviFind from './../assets/img/icon-navifind.jpg';
-import iconNaviGlobe from './../assets/img/icon-naviglobe.jpg';
+import iconNaviFind from '../assets/img/icon-navifind.svg';
+import iconNaviGlobe from '../assets/img/icon-naviglobe.svg';
 
 const ShipyardOwners = () => {
     return (

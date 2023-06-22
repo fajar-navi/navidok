@@ -1,0 +1,86 @@
+
+.dZkckO {
+    background: none !important;
+    box-shadow: 0 0 0px 0 #0009 !important;right: 70px !important;
+}
+
+.dZkckO:before {
+    content: '';
+    border: solid #FFF;
+    border-width: 0 8px 8px 0;
+    display: inline-block;
+    padding: 14px;
+    transform: rotate(315deg) !important;
+    -webkit-transform: rotate(315deg) !important;
+    background: none !important;
+    box-shadow: 0 0 0px 0 #0009 !important;
+    border-right: 8px solid #f5f5f5 !important;
+    border-top: 0px solid #000 !important;
+}
+.bBfHpH:before {
+    content: '';
+    border: solid #FFF;
+    border-width: 0 8px 8px 0;
+    display: inline-block;
+    padding: 14px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg) !important;
+    left: 30px !important;
+    border-right: 8px solid #f5f5f5 !important;
+    border-top: 0px solid #000 !important;
+    background: none !important;
+    box-shadow: 0 0 0px 0 #0009 !important;
+}
+.bBfHpH {
+    background: none !important;left: 50px;
+    box-shadow: 0 0 0px 0 #0009 !important;
+}
+.ddn {
+    /*position: absolute;*/
+    /*list-style-type: none;*/
+    /*min-width: 280px;left: -26px;*/
+    /*height: 90px; background-color: #0c5460;*/
+    width: auto;position: absolute;
+    list-style-type: none;
+    /*top: auto;*/
+    /*left: -26px;*/
+    /*min-width: 10em;*/
+    /*max-width: 20em;*/
+    background-color: rgba(189, 189, 189, 0.97); max-height: 203px;
+    color: #999;
+    min-width: 230px !important;
+padding: 0 0 20px 0;
+    left: auto;
+    border: 0; margin-top: 10px;
+}
+.subm {
+    height: 20px;
+    white-space: nowrap;
+    display: block;
+    padding: 20px 20px;
+    clear: both;
+    font-weight: 400;
+    color: #000 !important;
+    white-space: nowrap;
+    margin-left: 0px;
+    margin-bottom:0px;
+    padding-bottom:30px;
+    border-bottom: 1px solid #999;
+}
+.subm:hover {
+    color: #fff !important;
+    white-space: nowrap;
+}
+.ddwn {
+    width: 10px;    margin-top: -3px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+    color: white;
+}
+
+@media (max-width: 991px) {
+    .ddn {
+        position: unset;
+        background-color: transparent;
+
+    }
+}
