@@ -46,18 +46,23 @@ return(
               </div>
               <div className="col-sm-2 col-sm-offset-1 footer-menu text-md-left text-center">
                 <h4>FIND US</h4>
-                <Link to={{ pathname: "https://facebook.com" }} target="_blank">
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                   <i className="fa fa-facebook fa-fw fa-lg" style={{ textAlign: "left" }} />
-                </Link>
-                <Link to={{ pathname: "https://twitter.com" }} target="_blank">
-                  <i className="fa fa-twitter fa-fw fa-lg" style={{textAlign: 'left'}} /></Link>
-                <Link to={{ pathname: "https://instagram" }} target="_blank">
-                  <i className="fa fa-instagram fa-fw fa-lg" /></Link>
+                </a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                  <i className="fa fa-twitter fa-fw fa-lg" style={{ textAlign: "left" }} />
+                </a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                  <i className="fa fa-instagram fa-fw fa-lg" />
+                </a>
 
-                <Link className="text-md-left text-center icon-mob-store" to={{ pathname: "https://apple.com/id/app-store/" }} target="_blank">
-                  <img src={appStoreImage} style={{marginTop: '10px', display:'block'}} alt="" className="icon-mob-store"/></Link>
-                <Link className="text-md-left text-center icon-mob-store"  to={{ pathname: "https://play.google.com/" }} target="_blank">
-                  <img src={playStoreImage} style={{marginTop: '10px', display:'block'}} alt="" className="icon-mob-store"/></Link>
+                <a className="text-md-left text-center icon-mob-store" href="https://apple.com/id/app-store/" target="_blank" rel="noopener noreferrer">
+                  <img src={appStoreImage} style={{ marginTop: '10px', display: 'block' }} alt="" className="icon-mob-store" />
+                </a>
+                <a className="text-md-left text-center icon-mob-store" href="https://play.google.com/" target="_blank" rel="noopener noreferrer">
+                  <img src={playStoreImage} style={{ marginTop: '10px', display: 'block' }} alt="" className="icon-mob-store" />
+                </a>
+
               </div>
             </div>
           </div>

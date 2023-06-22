@@ -10,18 +10,18 @@ import icon4 from "../assets/img/icon-4.png";
 
 
 function Individuals() {
-  let imageStyle = {
-    backgroundImage:
-    'url("assets/img/header-01.jpg")',
-     padding: 180,
-    color: "white",
-    backgroundPosition: 'center',
-     backgroundSize: 'cover',
-     backgroundRepeat: 'no-repeat',
-     textAlign: "center",
-     width: '100vw',
-     height: '40vh'
- };
+ //  let imageStyle = {
+ //    backgroundImage:
+ //    'url("assets/img/header-01.jpg")',
+ //     padding: 180,
+ //    color: "white",
+ //    backgroundPosition: 'center',
+ //     backgroundSize: 'cover',
+ //     backgroundRepeat: 'no-repeat',
+ //     textAlign: "center",
+ //     width: '100vw',
+ //     height: '40vh'
+ // };
 
 
 return(

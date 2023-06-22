@@ -3,11 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-// images
-import bg_findImage from './../assets/img/bg_find.jpg';
-import bg_globeImage from './../assets/img/bg_globe.jpg';
-import bg_socImage from './../assets/img/bg_soc.jpg';
-import bg_productImage from './../assets/img/bg_product.jpg';
+
 // import required modules
 import {Autoplay, Navigation, Pagination} from "swiper";
 import React from "react";

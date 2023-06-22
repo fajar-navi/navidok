@@ -1,4 +1,4 @@
-import React, {Fragment, Component} from "react";
+import React, {Fragment} from "react";
 import Footer from "../components/Footer";
 import Menu from "../components/Menu";
 import ImgBg from "../components/ImgBg";

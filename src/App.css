@@ -2063,11 +2063,16 @@ li .shop-cart a:hover {
 .ob-fit-cover {
   object-fit: cover;
 }
-
+@media (max-width: 768px) {
+  .fa-lg {
+    font-size: 30px !important;margin: 30px 0px;
+  }
+}
 @media (max-width: 991px) {
   .h6, h6 {
     font-size: 18px !important;
   }
+
   .text-md-left {
     text-align: -webkit-center !important;
     margin-top: 30px;
