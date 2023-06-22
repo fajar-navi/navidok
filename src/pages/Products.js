@@ -10,7 +10,7 @@ const Products = () => {
     <Fragment>
     <Menu />
     <ImgBg title={"Products"}   src={bg_Header} />
-<ProdSwp />
+        <ProdSwp />
         {/*<Slider />*/}
 
 {/*<section id="action-slider">*/}

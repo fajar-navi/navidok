@@ -14,7 +14,8 @@ import {Navigation} from "swiper";
 
 function ProdSwp() {
     return (
-        <><section>
+        <>
+            <section style={{paddingBottom:'0px'}}>
 <div className="w80">
             <Swiper
                 slidesPerView={1}
