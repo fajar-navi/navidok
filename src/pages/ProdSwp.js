@@ -30,7 +30,7 @@ function ProdSwp() {
             >
 
                 <SwiperSlide style={{height: "80vh"}}>
-                    <div className="w100 item img-prdc" style={{backgroundImage: `url(${bg_findImage})`, backgroundRepeat:'no-repeat', backgroundSize:'cover'}}>
+                    <div className="w50 item img-prdc" style={{backgroundImage: `url(${bg_findImage})`, backgroundRepeat:'no-repeat', backgroundPosition:'left top'}}>
                         <div className="col-lg-6">
                         </div>
                         <div className="col-lg-6 prdct">
@@ -40,7 +40,7 @@ function ProdSwp() {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide style={{height: "80vh"}}>
-                    <div className="w100 item img-prdc" style={{backgroundImage: `url(${bg_globeImage})`, backgroundRepeat:'no-repeat', backgroundSize:'cover'}}>
+                    <div className="w50 item img-prdc" style={{backgroundImage: `url(${bg_globeImage})`, backgroundRepeat:'no-repeat', backgroundPosition:'left top'}}>
                         <div className="col-lg-6">
                         </div>
                         <div className="col-lg-6 prdct">
@@ -50,7 +50,7 @@ function ProdSwp() {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide style={{height: "80vh"}}>
-                    <div className="w100 item img-prdc" style={{backgroundImage: `url(${bg_socImage})`, backgroundRepeat:'no-repeat', backgroundSize:'cover'}}>
+                    <div className="w50 item img-prdc" style={{backgroundImage: `url(${bg_socImage})`, backgroundRepeat:'no-repeat', backgroundPosition:'left top'}}>
                         <div className="col-lg-6">
                         </div>
                         <div className="col-lg-6 prdct">
@@ -59,7 +59,7 @@ function ProdSwp() {
                         </div></div>
                 </SwiperSlide>
                 <SwiperSlide style={{height: "80vh"}}>
-                    <div className="w100 item img-prdc" style={{backgroundImage: `url(${bg_productImage})`, backgroundRepeat:'no-repeat', backgroundSize:'cover'}}>
+                    <div className="w50 item img-prdc" style={{backgroundImage: `url(${bg_productImage})`, backgroundRepeat:'no-repeat', backgroundPosition:'left top'}}>
                         <div className="col-lg-6">
                         </div>
                         <div className="col-lg-6 prdct">

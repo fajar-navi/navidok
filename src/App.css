@@ -2090,7 +2090,9 @@ li .shop-cart a:hover {
     width: 100% !important;
   }
   .w100 {background-position: right 92% bottom !important;}
+
 }
+
 @media (max-width: 991px) {
   .h6, h6 {
     font-size: 18px !important;
@@ -2118,7 +2120,7 @@ li .shop-cart a:hover {
 }
 .icon-mob-store {max-width: 100px;}
 .w80 {position: relative;
-  width: 80%;
+  /*width: 80%;*/
   margin: 0 auto;
   top: 30%;
 }
@@ -2135,14 +2137,14 @@ li .shop-cart a:hover {
 
 .prdct {
   /*max-width: 600px;*/
-  /*margin-top: 2%;*/
-  position: fixed;
+  /*margin-top: 2%;
+  position: fixed;*/
   height: 55%;
 }
 
-.img-prdc {
-  height: 555px;
-}
+/*.img-prdc {*/
+/*  height: 555px;*/
+/*}*/
 .swiper-button-next, .swiper-button-prev {
   top: 280px !important;
 }
@@ -2150,11 +2152,20 @@ li .shop-cart a:hover {
 @media (max-width: 1200px) {
   .prdct {
     position: absolute;
-    bottom: 0px;
+    bottom: -100px;
     text-align: -webkit-center;
   }
-  .mob-h90 {height: 90vH;}
+  .mob-h90 {height: 93vH;}
   .img-prdc {
-    height: 350px;
+    /*height: 350px;*/
   }
+  .w50 {background-position: 50% top !important;}
 }
+@media only screen and (min-width: 300px) and (max-width: 420px)  {
+  .img-prdc {background-size: 130%; }
+     }
+@media only screen and (min-width: 1200px)  {
+  /*.img-prdc {    background-position: left 20% top !important;}*/
+  .w80 { width: 80% !important;}
+
+     }
