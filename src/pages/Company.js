@@ -5,7 +5,7 @@ import ImgBg from "../components/ImgBg";
 import bg_Header from "../assets/img/header-03.jpg";
 import imgGenco from "../assets/img/genco.jpg";
 import bg_Impact from "../assets/img/impact-bg-image.jpg";
-
+import { Link } from "react-router-dom";
 
 function Company() {
 return(
@@ -49,11 +49,11 @@ sustainability</p>
           <div className="col-lg-12">
             <h2>ETHICS</h2>
 			<p className="no-pad">At Navidok, we are committed to conducting our business in an ethical and responsible manner. This Ethics Policy outlines the principles and standards that guide our actions and interactions with our users, employees, partners, and the broader community. We expect all individuals associated with our app to adhere to this policy and uphold our commitment to ethical conduct.</p>
-          </div>
+              <Link to="/ethics"><button type="submit" className="btn btn-dark mt-5">More</button></Link></div>
           <div className="col-lg-12 mt-7">
             <h2>DATA PROTECTIONS</h2>
 			<p className="no-pad">Navidok is committed to protecting the privacy and personal data of its users. This Data Protection Policy outlines how we collect, use, store, and protect personal information obtained through the use of our mobile app. By using our app, you consent to the practices described in this policy.
-</p>
+            </p><Link to="/dataprotection"><button type="submit" className="btn btn-dark mt-5">More</button></Link>
 <p>
     <img src={imgGenco} alt="" className="img-responsive center-block mt-7"/></p>
 

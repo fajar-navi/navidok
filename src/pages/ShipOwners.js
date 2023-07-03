@@ -26,13 +26,28 @@ const ShipOwners = () => {
                                 <div className="col-lg-5 box-rounded">
                                     <img src={iconNaviFind} className="icons icon-mob-mb30" alt=""  style={{marginBottom:"10px"}}/>
                                     <p className="no-pad"><strong>In NaviFIND you could get;</strong><br />
-                                        This is where you can find everything and anything related to your ship needs as we are populating all relevance maritime information and equip it with technological tools to help you make decisions, which we hope could be faster, better, and cheaper for your ship.</p>
+                                        This is where you can find
+                                        everything and anything related to
+                                        your ship needs as we are
+                                        populating all relevance maritime
+                                        information and equip it with
+                                        technological tools to help you
+                                        make decisions, which we hope
+                                        could be faster, better, and cheaper
+                                        for your ship.</p>
                                 </div>
                                 <div className="col-lg-1"></div>
                                 <div className="col-lg-5 box-rounded">
                                     <img src={iconNaviGlobe} className="icons icon-mob-mb30" alt=""  style={{marginBottom:"10px"}}/>
                                     <p className="no-pad"><strong>In NaviGLOBE you could get;</strong><br />
-                                        This is where you can find everything and anything related to your ship needs as we are populating all relevance maritime information and equip it with technological tools to help you make decisions, which we hope could be faster, better, and cheaper for your ship</p>
+                                        This will be your globe to make
+                                        your task and job, hopefully, easier
+                                        and more fun to do. At your
+                                        fingertips, you could see and
+                                        explore ports and shipyards all over
+                                        the world and have sense of what
+                                        you are trying to achieve with your
+                                        ship.</p>
                                 </div>
                             </div>
                             <h2 className="font-blue mt-7">What do you want us to do to make you better?</h2>
