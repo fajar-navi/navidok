@@ -7,10 +7,11 @@ import "swiper/css/navigation";
 import bg_findImage from './../assets/img/bg_find.jpg';
 import bg_globeImage from './../assets/img/bg_globe.jpg';
 import bg_socImage from './../assets/img/bg_soc.jpg';
-import bg_productImage from './../assets/img/bg_product.jpg';
+import bg_intelImage from './../assets/img/bg_intel.jpg';
 // import required modules
 import {Navigation} from "swiper";
 import { Link } from "react-router-dom";
+import React from "react";
 
 
 function ProdSwp() {
@@ -35,7 +36,8 @@ function ProdSwp() {
                         <div className="col-lg-6">
                         </div>
                         <div className="col-lg-6 prdct">
-                            <Link to="/navifind"><h1 className="heading title-dark mt-7 font-blue">NaviFIND</h1></Link>
+                            {/*<Link to="/navifind"><h1 className="heading title-dark mt-7 font-blue">NaviFIND</h1></Link>*/}
+                            <h1 className="heading title-dark mt-7 font-blue">NaviFIND</h1>
                             <p className="para-desc mx-auto">It is a highly specialized marine search engine coupled with some specific powerful tools to find answers for maritime queries faster, better, and cheaper.</p>
                         </div>
                     </div>
@@ -45,7 +47,8 @@ function ProdSwp() {
                         <div className="col-lg-6">
                         </div>
                         <div className="col-lg-6 prdct">
-                            <Link to="/naviglobe"><h1 className="heading title-dark mt-7 font-blue">NaviGLOBE</h1></Link>
+                            {/*<Link to="/naviglobe"><h1 className="heading title-dark mt-7 font-blue">NaviGLOBE</h1></Link>*/}
+                            <h1 className="heading title-dark mt-7 font-blue">NaviGLOBE</h1>
                             <p className="para-desc mx-auto">A maritime Globe that enables users to have a better sense of connectivity and information</p>
                         </div>
                     </div>
@@ -55,19 +58,21 @@ function ProdSwp() {
                         <div className="col-lg-6">
                         </div>
                         <div className="col-lg-6 prdct">
-                            <Link to="/maritime"><h1 className="heading title-dark mt-7 font-blue">Maritime Social Media</h1></Link>
+                            {/*<Link to="/maritime"><h1 className="heading title-dark mt-7 font-blue">Maritime Social Media</h1></Link>*/}
+                            <h1 className="heading title-dark mt-7 font-blue">Maritime Social Media</h1>
                             <p className="para-desc mx-auto">An interactive digital forum where all maritime stakeholders will encounter one another</p>
                         </div></div>
                 </SwiperSlide>
                 <SwiperSlide style={{height: "80vh"}}>
-                    <div className="w50 item img-prdc" style={{backgroundImage: `url(${bg_productImage})`, backgroundRepeat:'no-repeat', backgroundPosition:'left top'}}>
+                    <div className="w50 item img-prdc" style={{backgroundImage: `url(${bg_intelImage})`, backgroundRepeat:'no-repeat', backgroundPosition:'left top'}}>
                         <div className="col-lg-6">
                         </div>
                         <div className="col-lg-6 prdct">
-                            <Link to="/getintel"><h1 className="heading title-dark mt-7 font-blue">Get Intel!</h1></Link>
+                            {/*<Link to="/getintel"><h1 className="heading title-dark mt-7 font-blue">Get Intel!</h1></Link>*/}
+                            <h1 className="heading title-dark mt-7 font-blue">Get Intel!</h1>
                             <p className="para-desc mx-auto">We Bring Magic to Shipyards owners
                                 And those who must find ships for their drydock(s).
-                                Drop us an email at magic@navidok.com and we will send you the spell</p>
+                                Drop us an email at <Link to="mailto:magic@navidok.com">magic@navidok.com</Link> and we will send you the spell</p>
                         </div></div>
                 </SwiperSlide>
 

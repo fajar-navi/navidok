@@ -68,18 +68,19 @@ return(
           <ul className="nav navbar-nav navbar-left">
             <li><Link to="/">HOME </Link></li>
             <li><Link to="/company">THE COMPANY </Link></li>
-            <li className='nav-items' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} >
-              <Link className='nav-links' onClick={closeMobileMenu}> OUR USERS <img fill="white" className='ddwn' src={ddwn} alt=""/>
-                {/*{dropdown && <DropDown />}*/}
-                <ul className={`${dropdown?"dropdown":"hide"} ddn`}>
-                  <li><Link to="/shipowners" className={'has-submenu subm'}>SHIPOWNERS & OPERATORS</Link></li>
-                  <li><Link to="/shipyardowners" className={'has-submenu subm'}>SHIPYARD OWNERS </Link></li>
-                  <li><Link to="/supportingindustries" className={'has-submenu subm'}>SUPPORTING INDUSTRIES </Link></li>
-                  <li ><Link to="/individuals"className={'has-submenu subm'}>INDIVIDUALS </Link></li>
-                </ul>
-              </Link>
+            <li><Link to="/ourusers">OUR USERS </Link></li>
+            {/*<li className='nav-items' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} >*/}
+            {/*  <Link className='nav-links' onClick={closeMobileMenu}> OUR USERS <img fill="white" className='ddwn' src={ddwn} alt=""/>*/}
+            {/*    /!*{dropdown && <DropDown />}*!/*/}
+            {/*    <ul className={`${dropdown?"dropdown":"hide"} ddn`}>*/}
+            {/*      <li><Link to="/shipowners" className={'has-submenu subm'}>SHIPOWNERS & OPERATORS</Link></li>*/}
+            {/*      <li><Link to="/shipyardowners" className={'has-submenu subm'}>SHIPYARD OWNERS </Link></li>*/}
+            {/*      <li><Link to="/supportingindustries" className={'has-submenu subm'}>SUPPORTING INDUSTRIES </Link></li>*/}
+            {/*      <li ><Link to="/individuals"className={'has-submenu subm'}>INDIVIDUALS </Link></li>*/}
+            {/*    </ul>*/}
+            {/*  </Link>*/}
 
-            </li>
+            {/*</li>*/}
             {/*<li><Link to="/company">OUR USERS <span className="caret" /></Link>*/}
             {/*  <ul className="dropdown-menu">*/}
             {/*    <li><Link to="/shipowners">SHIPOWNERS & OPERATORS</Link></li>*/}

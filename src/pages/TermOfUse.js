@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Menu from "../components/Menu";
 import ImgBg from "../components/ImgBg";
 import bg_Header from "../assets/img/header-14.jpg";
+import {Link} from "react-router-dom";
 
 function TermOfUse() {
     return (
@@ -287,6 +288,278 @@ function TermOfUse() {
                         independently developed by Recipient without use of Discloser’s Confidential Information.
                     </p>
 
+                            <h2 className="font-blue w500 mt-7">7. Navidok’s IntellectualProperty Rights.</h2>
+                            <h4 className="numbering mob-mt--30">7.1</h4>
+                            <p className="no-pad pL40">
+                                The Application, Services and all materials therein or transferred thereby, including,
+                                without limitation, software, images, text, graphics, illustrations, logos, patents,
+                                trademarks, service marks, copyrights, photographs, audio, videos, music, and User
+                                Content belonging to other party (the “Navidok Content”), and all Intellectual Property
+                                Rights related thereto, are the exclusive property of Navidok.
+                            </p>
+                            <h4 className="numbering">7.2</h4>
+                            <p className="no-pad pL40">
+                                Except as explicitly provided herein, nothing in this Terms of Use shall be deemed to
+                                create a license in or any such Intellectual Property Rights, and You agree not to sell,
+                                license, rent, modify, distribute, copy, reproduce, transmit, publicly display, publicly
+                                perform, publish, adapt, edit or create derivative works from any Navidok Content.
+                                Unless with our prior written consent, use of the Navidok Content for any purpose is
+                                strictly prohibited.
+                            </p>
+
+                            <h4 className="numbering">7.3</h4>
+                            <p className="no-pad pL40">
+                                Subject to this Terms of Use, We grant You a limited, non-exclusive, revocable, nontransferable
+                                (without the right to sublicense) license to (i) download, access and use
+                                the Application, as is, only on the devices in the form of Your personal mobile phone
+                                and/or tablet and solely for the purposes of using the Services, and (ii) access or use
+                                content, information and related materials available on the Application solely for
+                                personal and not for commercial purposes. All rights and privileges that are not
+                                expressly granted herein are reserved by Navidok.
+                            </p>
+
+                            <h4 className="numbering">7.4</h4>
+                            <p className="no-pad pL40">
+                                Any duplication, distribution, creation of derivative works, sale or offer to sell, display
+                                either in part or in full, and use of the Application and/or Services, either digitally or
+                                otherwise or on devices other than mobile phones or tablets, including but not limited
+                                to the use of additional applications such as modifiers, emulators, etc., which diverge
+                                from this Terms of Use, as well as the intended purposes determined by Us, is a
+                                violation of Our intellectual property right
+                            </p>
+
+
+                            <h2 className="font-blue w500 mt-7">8. User Content.</h2>
+                            <h4 className="numbering mob-mt--30">8.1 General</h4>
+                            <p className="no-pad pL40 mt-60-1200">
+                                Some areas of the Services,Users by them selves will or Navidok on behalf of the User
+                                is authorized to upload, submit and publish, content or information of the User as
+                                profile information, comments, questions, photographs, illustrations, fonts, designs,
+                                and other content or information (any such materials a User submits, posts, displays,
+                                prints or otherwise makes available on or via the Service without compensation “User
+                                Content”). As between You and Navidok, You retain ownership of your User Content,
+                                and you understand that you will be entirely responsible for all such User Content,
+                                including any third party Intellectual Property Rights incorporated therein.
+                            </p>
+                            <h4 className="numbering">8.2</h4>
+                            <p className="no-pad pL40">
+                                Uploading and Publishing User Content to Navidok.<br/>
+                                You agree not to submit or use User Content that: (i) may create a risk of harm, loss,
+                                physical or mental injury, emotional distress, death, disability, disfigurement, or
+                                physical or mental illness to you, to any other person, or to any animal; (ii) may
+                                create a risk of any other loss or damage to any person or property; (iii) seeks to
+                                harm or exploit children by exposing them to inappropriate content, asking for
+                                personally identifiable details or otherwise; (iv) may constitute or contribute to a
+                                crime or tort; (v) contains any information or content that we deem to be unlawful,
+                                harmful, abusive, racially or ethnically offensive, defamatory, infringing, invasive of
+                                personal privacy or publicity rights, harassing, humiliating to other people (publicly or
+                                otherwise), libelous, threatening, hostile, violent, or that which provokes violence or
+                                hostility, profane, or otherwise objectionable; (vi) contains any information which
+                                discriminates against others based on race, religion, sex, sexual orientation, age,
+                                disability, ancestry or national origin; (vii) contains any information or content that is
+                                illegal (including, without limitation, the disclosure of insider information under
+                                securities law or of another party’s trade secrets); (viii) contains any information or
+                                content that you do not have a right to make available under any law or under
+                                contractual or fiduciary relationships; or (ix) contains any information or content that
+                                you know is not correct and current. You agree that any User Content does not and
+                                will not violate third-party rights of any kind, including without limitation any
+                                Intellectual Property Rights (as defined below) or rights of privacy or publicity.
+                                Navidok reserves the right, but is not obligated, to reject and/or remove any User
+                                Content that Navidok believes, in its sole discretion, violates these provisions. You
+                                understand that publishing your User Content on or via the Services is not a
+                                substitute for registering it with the U.S. Copyright Office, the Writer’s Guild of
+                                America, or any other rights organization.
+                            </p>
+
+                            <h4 className="numbering">8.3</h4>
+                            <p className="no-pad pL40">In connection with your User Content, you affirm, represent and warrant the
+                                following:</p>
+                            <h4 className="numbering pL55">8.3.1</h4>
+                            <p className="no-pad pL110">
+                                Your User Content and Navidok’s use thereof as contemplated by this
+                                Agreement and the Service will not violate any law or infringe any rights of
+                                any third party, including but not limited to any Intellectual Property Rights
+                                and privacy and publicity rights.
+                            </p>
+                            <h4 className="numbering pL55">8.3.2</h4>
+                            <p className="no-pad pL110">
+                                Navidok may exercise the rights to your User Content granted under this
+                                Agreement without liability for payment of any guild fees, residuals,
+                                payments, fees, or royalties payable under any collective bargaining
+                                agreement or otherwise.
+                            </p>
+                            <h4 className="numbering pL55">8.3.3</h4>
+                            <p className="no-pad pL110">
+                                There is no suit action or claim or other legal or administrative proceeding
+                                now pending or threatened which might directly or indirectly affect any of
+                                your User Content or which might in any way impair the rights granted by
+                                you hereunder.
+                            </p>
+                            <h4 className="numbering pL55">8.3.4</h4>
+                            <p className="no-pad pL110">
+                                If your User Content contains or incorporates in any manner any components
+                                including but not limited to design elements, fonts, clipart, sprites, vectors or
+                                brush tools and the like that are included in design programs, by uploading
+                                any such User Content to Navidok, you represent and warrant that the end
+                                user license agreement, terms of service or the equivalent license agreed to
+                                by you allows you to incorporate such elements in the User Content created
+                                by you, and to license such User Content to Navidok for the purposes set
+                                forth herein
+                            </p>
+                            <h4 className="numbering pL55">8.3.5</h4>
+                            <p className="no-pad pL110">
+                                Your User Content is neither obscene, defamatory, or otherwise
+                                objectionable.
+                            </p>
+                            <h4 className="numbering pL55">8.3.6</h4>
+                            <p className="no-pad pL110">
+                                To the best of your knowledge, all your User Content and other information
+                                that you provide to us is truthful and accurate.
+                            </p>
+                            <h4 className="numbering pL55">8.3.7</h4>
+                            <p className="no-pad pL110">
+                                You will not transmit unsolicited emails or engage in spamming to publicize
+                                or promote your relationship with Navidok.
+                            </p>
+                            <h4 className="numbering pL55">8.3.8</h4>
+                            <p className="no-pad pL110">
+                                If you use the Services to post, publish, share or print User Content, you
+                                agree that you have verified that the User Content does not contain anything
+                                that is illegal, encourages illegal activity, infringes (or is otherwise deceptively
+                                similar to) any third-party’s Intellectual Property Rights (e.g. uploading
+                                content or picture from other media), or otherwise breaches this Terms of
+                                Use.
+                            </p>
+                            <h4 className="numbering pL55">8.3.9</h4>
+                            <p className="no-pad pL110">
+                                Upon making or learning of any claim that is inconsistent with any of the
+                                representations or warranties made by you, Navidok shall send you written
+                                notice of such claim, using the email address provided by you to Navidok,
+                                specifying the details of the claim as then known to Navidok. Pending the
+                                determination of such claim, Navidok may withhold from royalties and/or
+                                other compensation due to you hereunder, such sums as are reasonably
+                                related to the probable value of the claim as determined by Navidok.
+                            </p>
+                            <h4 className="numbering pL55">8.3.10</h4>
+                            <p className="no-pad pL110">
+                                Navidok takes no responsibility and assumes no liability for any User Content
+                                that you or any other User or third party posts, publishes or prints over or
+                                using the Service. You shall be solely responsible for your User Content and
+                                the consequences of posting, publishing and printing it, and you agree that
+                                we are only acting as a passive conduit for your online distribution and
+                                publication of your User Content. You understand and agree that you may be
+                                exposed to User Content that is inaccurate, objectionable, inappropriate for
+                                children, or otherwise unsuited to your purpose, and you agree that Navidok
+                                shall not be liable for any damages you allege to incur as a result of User
+                                Content, Stock Media or your use of either in printed form. In the event that
+                                your User Content is alleged to be offensive, inappropriate for children,
+                                unlawful or otherwise in breach of these terms, you agree that Navidok may
+                                disclose such User Content to law enforcement or other government
+                                authorities.
+                            </p>
+
+                            <h2 className="font-blue w500 mt-7">9. Limitation of Liability.</h2>
+                            <h4 className="numbering mob-mt--30">9.1</h4>
+                            <p className="no-pad pL40">IN NO EVENT SHALL EITHER PARTY’S AGGREGATE CUMULATIVE LIABILITY
+                                HEREUNDER (WHETHER IN CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY IN
+                                TORT OR BY STATUTE OR OTHERWISE) EXCEED THE REMAINING AMOUNT THAT
+                                MIGHT USED BY CUSTOMER IN THE APPLICATION HEREUNDER.
+                            </p>
+                            <h4 className="numbering mob-mt--30">9.2</h4>
+                            <p className="no-pad pL40">IN NO EVENT SHALL EITHER PARTY BE LIABLE FOR ANY CONSEQUENTIAL,
+                                INCIDENTAL, INDIRECT, SPECIAL, EXEMPLARY OR PUNITIVE DAMAGES, LOSSES,
+                                OR EXPENSES (INCLUDING BUT NOT LIMITED TO BUSINESS INTERRUPTION, LOST
+                                BUSINESS, LOST OPPORTUNITY AND/OR LOST PROFITS) EVEN IF IT HAS BEEN
+                                ADVISED OF THEIR POSSIBLE EXISTENCE AND NOTWITHSTANDING THE FAILURE
+                                OF ESSENTIAL PURPOSE OF ANY REMEDY.
+                            </p>
+
+                            <h2 className="font-blue w500 mt-7">10. Indemnification.</h2>
+                            <p className="no-pad pL40">You agree to defend, indemnify and hold harmless Navidok and its subsidiaries, agents,
+                                licensors, managers, and other affiliated companies, and their employees, contractors,
+                                agents, officers and directors, from and against any and all claims, damages, obligations,
+                                losses, liabilities, costs or debt, and expenses (including but not limited to attorney’s
+                                fees) arising from: (i) your use of and access to the Application and/or Services, including
+                                any data or content transmitted or received by you; (ii) your violation of any Terms of
+                                this Terms of Use, including without limitation your breach of any of the representations
+                                and warranties above; (iii) your violation of any third-party right, including without
+                                limitation any right of privacy, publicity, or Intellectual Property Rights; (iv) your violation
+                                of any applicable law, rule, or regulation; (v) any claim or damages that arise as a result
+                                of any of your User Content, or any content that is submitted via your account; or (vi) any
+                                other party’s access and use of the Service with your unique username, password, or
+                                other appropriate security code.
+                            </p>
+
+                            <h2 className="font-blue w500 mt-7">11. Force Majeure</h2>
+                            <p className="no-pad pL40">Our Application may be interrupted by events outside of Our authority or control
+                                (“Force Majeure”), including but not limited to natural disasters, electricity disruptions,
+                                telecommunications failures, government policies, and other events. You hereby agree
+                                to release Us from any demands and responsibilities, if We are not able to facilitate
+                                Service, including to fulfill instructions You requested through the Application, either in
+                                part or in whole, due to a Force Majeure.
+                            </p>
+
+
+                            <h2 className="font-blue w500 mt-7">12. Governing Law and Settlement Dispute Resolution</h2>
+                            <h4 className="numbering mob-mt--30">12.1</h4>
+                            <p className="no-pad pL40">
+                                This Terms of Use (and any and all disputes arising out of or in connection with these
+                                Terms of Use (including any alleged breach or challenge to the validity or
+                                enforceability of these Terms of Use)) shall be governed by and interpreted in
+                                accordance solely with the Laws of Delaware.
+                            </p>
+                            <h4 className="numbering mob-mt--30">12.1</h4>
+                            <p className="no-pad pL40">
+                                In the event of a dispute arising out of or in connection with this Terms of Use, the
+                                parties shall first discuss in good faith to reach an amicable resolution within sixty (60)
+                                days from the date of the notice of dispute. However, if such dispute may not be
+                                settled by mutual consultation within sixty (60) days, it shall be referred to arbitration
+                                by the American Arbitration Association (“AAA”) under the Commercial
+                                Arbitration Rules and Supplementary Procedures for Consumer Related Disputes
+                                then in effect for the AAA, except as provided herein. The arbitration will be
+                                conducted in Santa Clara County, California, unless you and Navidok agree
+                                otherwise. Each party will be responsible for paying any AAA filing, administrative
+                                and arbitrator fees in accordance with AAA rules. The award rendered by the
+                                arbitrator shall include costs of arbitration, reasonable attorneys’ fees and
+                                reasonable costs for expert and other witnesses, and any judgment on the award
+                                rendered by the arbitrator may be entered in any court of competent jurisdiction.
+                                Nothing in this Section shall prevent either party from seeking injunctive or other
+                                equitable relief from the courts as necessary to prevent the actual or threatened
+                                infringement, misappropriation, or violation of that party’s data security,
+                                Intellectual Property Rights, or other proprietary rights. All claims must be
+                                brought in the parties’ individual capacity, and not as a plaintiff or class member
+                                in any purported class or representative proceeding, and, unless we agree
+                                otherwise, the arbitrator may not consolidate more than one person’s claims. You
+                                agree that, by entering into this agreement, you and Navidok are each waiving
+                                the right to a trial by jury or to participate in a class action.
+                            </p>
+
+                            <h2 className="font-blue w500 mt-7">13. Miscellaneous.</h2>
+                            <h4 className="numbering mob-mt--30">13.1</h4>
+                            <p className="no-pad pL40">
+                                In the event that any provision is determined to be unenforceable or invalid, by any
+                                relevant laws and regulations, such provision shall nonetheless be enforced to the
+                                fullest extent permitted by applicable law and such determination shall not affect the
+                                validity and enforceability of any other remaining provisions. The severed provision
+                                shall be replaced by a provision approximating as much as possible the original
+                                wording and intent.
+                            </p>
+                            <h4 className="numbering mob-mt--30">13.1</h4>
+                            <p className="no-pad pL40">
+                                Failure by either Party to enforce any provision of this Terms of Use at any time shall
+                                not be construed as a waiver of each Party’s rights to enforce the breach of such
+                                provision or any other provision in thisTerms of Use or as a waiver of any continuing,
+                                succeeding or subsequent breach of any provision or other provisions of these Terms.
+                            </p>
+
+                            <h2 className="font-blue w500 mt-7">14. Contact Us.</h2>
+                            <p className="no-pad pL40">
+                                You may contact Us by electronic mail to <Link to="mailto:developer@navidok.com">developer@navidok.com</Link>. All your correspondences
+                                will be noted, recorded and stored for our records.
+                            </p>
+
+                            <h4 style={{marginTop: `80px`}}>I have read and understood all of this Terms of Use and its consequences and hereby accept
+                                any rights, obligations, and conditions stipulated therein</h4>
                     </div>
                 </div>
 

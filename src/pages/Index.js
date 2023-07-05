@@ -14,6 +14,7 @@ import icon1 from './../assets/img/icon-1.png';
 import icon2 from './../assets/img/icon-2.png';
 import icon3 from './../assets/img/icon-3.png';
 import icon4 from './../assets/img/icon-4.png';
+import {ContactUs} from "../components/Contact";
 
 function Index() {
 return(
@@ -54,68 +55,69 @@ We currently serve in selected areas</p>
           </div>
         </section>
 
-        <section id="services" className="text-center"  style={{marginBottom: '-100px'}}>
-          <div className="container text-center">
-            <div className="row">
-              <div className="col-lg-8 col-lg-offset-2">
-                <h3 className="title"><span style={{color: '#283891'}}>Our</span> Customers</h3></div>
-            </div>
-            <div className="row">
-              <div data-wow-delay=".2s" className="col-lg-3 col-sm-6 wow fadeIn">
-                <Link to="/shipowners"><img src={icon1} className="icons" alt="" />
-                <h4 className="font-lightblue"> Shipowners &amp; Operators</h4></Link>
-              </div>
-              <div data-wow-delay=".4s" className="col-lg-3 col-sm-6 wow fadeIn">
-                <Link to="/shipyardowners"><img src={icon2} className="icons " alt="" />
-                <h4 className="font-lightblue"> Shipyard Owners</h4></Link>
-              </div>
-              <div data-wow-delay=".6s" className="col-lg-3 col-sm-6 wow fadeIn">
-                <Link to="/supportingindustries"><img src={icon3} className="icons " alt="" />
-                <h4 className="font-lightblue"> Supporting Industries</h4></Link>
-              </div>
-              <div data-wow-delay=".8s" className="col-lg-3 col-sm-6 wow fadeIn">
-                <Link to="/individuals"><img src={icon4} className="icons " alt="" />
-                <h4 className="font-lightblue"> Individuals</h4></Link>
-              </div>
-            </div>
-          </div>
-        </section>
+        {/*<section id="services" className="text-center"  style={{marginBottom: '-100px'}}>*/}
+        {/*  <div className="container text-center">*/}
+        {/*    <div className="row">*/}
+        {/*      <div className="col-lg-8 col-lg-offset-2">*/}
+        {/*        <h3 className="title"><span style={{color: '#283891'}}>Our</span> Customers</h3></div>*/}
+        {/*    </div>*/}
+        {/*    <div className="row">*/}
+        {/*      <div data-wow-delay=".2s" className="col-lg-3 col-sm-6 wow fadeIn">*/}
+        {/*        <Link to="/shipowners"><img src={icon1} className="icons" alt="" />*/}
+        {/*        <h4 className="font-lightblue"> Shipowners &amp; Operators</h4></Link>*/}
+        {/*      </div>*/}
+        {/*      <div data-wow-delay=".4s" className="col-lg-3 col-sm-6 wow fadeIn">*/}
+        {/*        <Link to="/shipyardowners"><img src={icon2} className="icons " alt="" />*/}
+        {/*        <h4 className="font-lightblue"> Shipyard Owners</h4></Link>*/}
+        {/*      </div>*/}
+        {/*      <div data-wow-delay=".6s" className="col-lg-3 col-sm-6 wow fadeIn">*/}
+        {/*        <Link to="/supportingindustries"><img src={icon3} className="icons " alt="" />*/}
+        {/*        <h4 className="font-lightblue"> Supporting Industries</h4></Link>*/}
+        {/*      </div>*/}
+        {/*      <div data-wow-delay=".8s" className="col-lg-3 col-sm-6 wow fadeIn">*/}
+        {/*        <Link to="/individuals"><img src={icon4} className="icons " alt="" />*/}
+        {/*        <h4 className="font-lightblue"> Individuals</h4></Link>*/}
+        {/*      </div>*/}
+        {/*    </div>*/}
+        {/*  </div>*/}
+        {/*</section>*/}
 
     <ProdSwp />
+      <ContactUs />
 
-    <section id="contact" style={{ background: `url(${bg_Contact}) no-repeat center center`, WebkitBackgroundSize: 'cover', MozBackgroundSize: 'cover', backgroundSize: 'cover' }}>
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12">
-                <h3 className="title"><span style={{color: '#283891'}}>Help</span> Center</h3></div>
-            </div>
-            <div className="col-md-5">
-              <p>For technical quarries or business quarries, please feel free to email us</p>
-              <form id="contactForm" name="sentMessage" noValidate>
-                <div className="control-group">
-                  <div className="form-group floating-label-form-group controls">
-                    <label htmlFor="name" className="sr-only control-label">Email</label>
-                    <input id="name" type="text" placeholder="Email" required data-validation-required-message="Please enter name" className="form-control input-lg" /><span className="help-block text-danger" />
-                  </div>
-                </div>
-                <div className="control-group">
-                  <div className="form-group floating-label-form-group controls">
-                    <label htmlFor="email" className="sr-only control-label">Contact Number</label>
-                    <input id="email" type="email" placeholder="Contact Number" required data-validation-required-message="Please enter email" className="form-control input-lg" /><span className="help-block text-danger" />
-                  </div>
-                </div>
-                <div className="control-group">
-                  <div className="form-group floating-label-form-group controls">
-                    <label htmlFor="message" className="sr-only control-label">Message</label>
-                    <textarea id="message" rows={2} placeholder="Message" required data-validation-required-message="Please enter a message." aria-invalid="false" className="form-control input-lg" defaultValue={""} /><span className="help-block text-danger" />
-                  </div>
-                </div>
-                <div id="success" />
-                <button type="submit" className="btn btn-dark">Send</button>
-              </form>
-            </div>
-          </div>
-        </section>
+    {/*<section id="contact" style={{ background: `url(${bg_Contact}) no-repeat center center`, WebkitBackgroundSize: 'cover', MozBackgroundSize: 'cover', backgroundSize: 'cover' }}>*/}
+    {/*      <div className="container">*/}
+    {/*        <div className="row">*/}
+    {/*          <div className="col-lg-12">*/}
+    {/*            <h3 className="title"><span style={{color: '#283891'}}>Help</span> Center</h3></div>*/}
+    {/*        </div>*/}
+    {/*        <div className="col-md-5">*/}
+    {/*          <p>For technical quarries or business quarries, please feel free to email us</p>*/}
+    {/*          <form id="contactForm" name="sentMessage" noValidate>*/}
+    {/*            <div className="control-group">*/}
+    {/*              <div className="form-group floating-label-form-group controls">*/}
+    {/*                <label htmlFor="email" className="sr-only control-label">Email</label>*/}
+    {/*                <input id="from_email" type="email" placeholder="Email" required data-validation-required-message="Please enter email" className="form-control input-lg" /><span className="help-block text-danger" />*/}
+    {/*              </div>*/}
+    {/*            </div>*/}
+    {/*            <div className="control-group">*/}
+    {/*              <div className="form-group floating-label-form-group controls">*/}
+    {/*                <label htmlFor="number" className="sr-only control-label">Contact Number</label>*/}
+    {/*                <input id="from_number" type="text" placeholder="Contact Number" required data-validation-required-message="Please enter contact number" className="form-control input-lg" /><span className="help-block text-danger" />*/}
+    {/*              </div>*/}
+    {/*            </div>*/}
+    {/*            <div className="control-group">*/}
+    {/*              <div className="form-group floating-label-form-group controls">*/}
+    {/*                <label htmlFor="message" className="sr-only control-label">Message</label>*/}
+    {/*                <textarea id="message" rows={2} placeholder="Message" required data-validation-required-message="Please enter a message." aria-invalid="false" className="form-control input-lg" defaultValue={""} /><span className="help-block text-danger" />*/}
+    {/*              </div>*/}
+    {/*            </div>*/}
+    {/*            <div id="success" />*/}
+    {/*            <button type="submit" className="btn btn-dark">Send</button>*/}
+    {/*          </form>*/}
+    {/*        </div>*/}
+    {/*      </div>*/}
+    {/*    </section>*/}
         
 <Footer />
 </Fragment>

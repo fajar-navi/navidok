@@ -29,7 +29,7 @@ const ShipOwners = () => {
                                         This is where you can find
                                         everything and anything related to
                                         your ship needs as we are
-                                        populating all relevance maritime
+                                        populating all relevant maritime
                                         information and equip it with
                                         technological tools to help you
                                         make decisions, which we hope

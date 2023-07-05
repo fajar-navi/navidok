@@ -671,6 +671,7 @@ a.btn-nav .btn {
   font-size: 12px; }
 
 @media (min-width: 991px) {
+
   .search-form input {
     background: transparent;
     border: 0;
@@ -1938,7 +1939,8 @@ li .shop-cart a:hover {
   line-height: 44px; }
 .footer h4, .footer h5, .footer h6 {
   /*opacity: 0.7;*/ color: #ffffff;
-  font-weight: 700 !important;}
+  /*font-weight: 700 !important;}*/
+  font-weight: 700}
 .footer a {
   text-decoration: none;color: #fff !important;
   opacity: 1; }
@@ -2167,5 +2169,8 @@ li .shop-cart a:hover {
 @media only screen and (min-width: 1200px)  {
   /*.img-prdc {    background-position: left 20% top !important;}*/
   .w80 { width: 80% !important;}
+  .mt-60-1200 {margin-top: 60px !important;}
 
+  .desktop-right {text-align: right !important;}
+  .mt--20 {margin-top: -20px;}
      }

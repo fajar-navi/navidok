@@ -14,59 +14,47 @@ const onNavbarClick = (e) => {
 function Footer() {
 return(
     <Fragment>
-        <section className="section-small footer bg-black">
-          <div className="container">
-            <div className="row">
-              <div className="col-sm-2 text-md-left text-center">
-                <h4>THE COMPANY</h4>
-                <h6 className="no-pad-foot"><Link to="/company">About us</Link></h6>
-                <h6 className="no-pad-foot"><Link to="/ethics">Ethics</Link></h6>
-                <h6 className="no-pad-foot"><Link to="/dataprotection">Data Protection</Link></h6>
-                <h6 className="no-pad-foot"><Link to="/termsofuse">Terms of Use</Link></h6>
-              </div>
-              <div className="col-sm-2 text-md-left text-center">
-                <h4>OUR USERS</h4>
-                <h6 className="no-pad-foot"><Link to="/shipowners">Shipowners & Operators</Link></h6>
-                <h6 className="no-pad-foot"><Link to="/shipyardowners">Shipyard Owners</Link></h6>
-                <h6 className="no-pad-foot"><Link to="/supportingindustries">Supporting Industries</Link></h6>
-                <h6 className="no-pad-foot"><Link to="/individuals">Individuals</Link></h6>
-              </div>
-              <div className="col-sm-2 text-md-left text-center">
-                <h4>OUR PRODUCTS</h4>
-                <h6 className="no-pad-foot"><Link to="/navifind">NaviFIND</Link></h6>
-                <h6 className="no-pad-foot"><Link to="/naviglobe">NaviGLOBE</Link></h6>
-                <h6 className="no-pad-foot"><Link to="/maritime">Maritime Social Media</Link></h6>
-                <h6 className="no-pad-foot"><Link to="/getintel">Get Intel!</Link></h6>
-              </div>
-              <div className="col-sm-2 text-md-left text-center">
-                <h4>HELP CENTER</h4>
+      <section className="section-small footer bg-black">
+        <div className="container">
+          <div className="row mob-center">
 
-                <h6 className="no-pad-foot"><HashLink smooth to="/#contact" onClick={onNavbarClick}>Contact Us</HashLink></h6>
-                <h6 className="no-pad-foot"><HashLink smooth to="/#contact" onClick={onNavbarClick}>Technical Support</HashLink></h6>
-              </div>
-              <div className="col-sm-2 col-sm-offset-1 footer-menu text-md-left text-center">
-                <h4>FIND US</h4>
-                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <div className="col-lg-12 mob-center desktop-right">
+
+            </div>
+
+            <div className="col-lg-6" style={{ color: '#fff' }}>
+              <Link to="/company">About us &nbsp;</Link> | &nbsp;
+              <Link to="/ethics">Ethics &nbsp;</Link> | &nbsp;
+              <Link to="/dataprotection">Data Protection &nbsp;</Link> | &nbsp;
+              <Link to="/termsofuse">Terms of Use &nbsp;</Link><br/>
+              Copyright @ Navidok Asia Pacific Pte Ltd. All Rights Reserved.
+            </div>
+
+            <div className="col-lg-6 mob-center desktop-right mt--20">
+
+              <div className="mb-3">
+                <a href="https://web.facebook.com/profile.php?id=100068479730046" target="_blank" rel="noopener noreferrer">
                   <i className="fa fa-facebook fa-fw fa-lg" style={{ textAlign: "left" }} />
                 </a>
-                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                  <i className="fa fa-twitter fa-fw fa-lg" style={{ textAlign: "left" }} />
-                </a>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                {/*<a href="https://twitter.com" target="_blank" rel="noopener noreferrer">*/}
+                {/*  <i className="fa fa-twitter fa-fw fa-lg" style={{ textAlign: "left" }} />*/}
+                {/*</a>*/}
+                <a href="https://instagram.com/navidokapp?igshid=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">
                   <i className="fa fa-instagram fa-fw fa-lg" />
                 </a>
-
-                <a className="text-md-left text-center icon-mob-store" href="https://apple.com/id/app-store/" target="_blank" rel="noopener noreferrer">
-                  <img src={appStoreImage} style={{ marginTop: '10px', display: 'block' }} alt="" className="icon-mob-store" />
-                </a>
-                <a className="text-md-left text-center icon-mob-store" href="https://play.google.com/" target="_blank" rel="noopener noreferrer">
-                  <img src={playStoreImage} style={{ marginTop: '10px', display: 'block' }} alt="" className="icon-mob-store" />
-                </a>
-
               </div>
+            <span  style={{ display: "flow-root" }}>
+              <a className="text-md-left text-center icon-mob-store" href="https://play.google.com/store/apps/details?id=com.navidoksocial.android" target="_blank" rel="noopener noreferrer">
+                <img src={playStoreImage} style={{ marginTop: '0px', marginRight: '10px' }} alt="" className="icon-mob-store" />
+              </a>
+              <a className="text-md-left text-center icon-mob-store" href="https://apps.apple.com/in/app/navidok-app/id1631780497" target="_blank" rel="noopener noreferrer">
+                <img src={appStoreImage} style={{ marginTop: '0px',   marginLeft: '10px' }} alt="" className="icon-mob-store" />
+              </a></span>
             </div>
+
           </div>
-        </section>
+        </div>
+      </section>
 
     </Fragment>
 )

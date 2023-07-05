@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import Menu from "../components/Menu";
 import ImgBg from "../components/ImgBg";
 // images
-import bg_Header from './../assets/img/header-13.jpg';
+import bg_Header from './../assets/img/header-22.jpg';
 import icon1 from "../assets/img/icon-1.png";
 import iconNaviFind from "../assets/img/icon-navifind.svg";
 import iconNaviGlobe from "../assets/img/icon-naviglobe.svg";
@@ -24,7 +24,7 @@ function NaviFind() {
                             <p className="no-pad">This is where you can find
                                 everything and anything related to
                                 your ship needs as we are
-                                populating all relevance maritime
+                                populating all relevant maritime
                                 information and equip it with
                                 technological tools to help you
                                 make decisions, which we hope

@@ -20,6 +20,7 @@ import GetIntel from "./pages/GetIntel";
 import ImgBg from './components/ImgBg';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import OurUsers from "./pages/OurUsers";
 
 
 // import Category from './pages/Category';
@@ -43,6 +44,7 @@ function App() {
                   <Route path="/shipyardowners" element={<ShipyardOwners />} />
                   <Route path="/supportingindustries" element={<SupportingIndustries />} />
                   <Route path='/individuals' element={<Individuals /> } />
+                  <Route path='/ourusers' element={<OurUsers /> } />
                   <Route path='/products' element={<Products /> } />
                   <Route path='/ethics' element={<Ethics /> } />
                   <Route path='/dataprotection' element={<DataProtection /> } />

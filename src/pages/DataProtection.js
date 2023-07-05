@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Menu from "../components/Menu";
 import ImgBg from "../components/ImgBg";
 import bg_Header from "../assets/img/header-07.jpg";
+import { Link } from 'react-router-dom';
 // import bg_Impact from "../assets/img/impact-bg-image.jpg";
 import imgGenco from "../assets/img/genco.jpg";
 
@@ -65,7 +66,7 @@ function DataProtection() {
 
                         <div className="col-lg-12 mt-5">
                             <h4 style={{marginBottom: `0px`}}>Children's Privacy</h4>
-                            <p className="no-pad">Our app is not intended for use by individuals under the age of [specify age]. We do not knowingly collect personal information from children. If we become aware that personal information has been collected from a child without parental consent, we will take steps to delete the information.</p>
+                            <p className="no-pad">Our app is not intended for use by individuals under the age of 18. We do not knowingly collect personal information from children. If we become aware that personal information has been collected from a child without parental consent, we will take steps to delete the information.</p>
                         </div>
 
                         <div className="col-lg-12 mt-5">
@@ -75,7 +76,7 @@ function DataProtection() {
 
                         <div className="col-lg-12 mt-5">
                             <h4 style={{marginBottom: `0px`}}>Contact Us</h4>
-                            <p className="no-pad">If you have any questions, concerns, or requests regarding this Data Protection Policy or the handling of your personal information, please contact us at [provide contact details].</p>
+                            <p className="no-pad">If you have any questions, concerns, or requests regarding this Data Protection Policy or the handling of your personal information, please contact us at <Link to="mailto:NaviSupport@navidok.com">NaviSupport@navidok.com</Link></p>
                         </div>
 
                     </div>
