@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import Menu from "../components/Menu";
 import ImgBg from "../components/ImgBg";
 // images
-import bg_Header from './../assets/img/header-18.jpg';
+import bg_Header from './../assets/img/header-21.jpg';
 import iconNaviGlobe from "../assets/img/icon-naviglobe.svg";
 
 function NaviGlobe() {
