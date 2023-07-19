@@ -9,6 +9,7 @@ import icon1 from "../assets/img/icon-1.png";
 import icon2 from "../assets/img/icon-2.png";
 import icon3 from "../assets/img/icon-3.png";
 import icon4 from "../assets/img/icon-4.png";
+import icon5 from "../assets/img/icon-5.png";
 
 function OurUsers() {
     return (
@@ -50,7 +51,7 @@ function OurUsers() {
                         <div data-wow-delay=".10s" className="col-lg-3 col-sm-12 wow fadeIn">
                             {/*<Link to="/individuals"><img src={icon4} className="icons " alt="" />*/}
                             {/*    <h4 className="font-lightblue"> Individuals</h4></Link>*/}
-                            <img src={icon4} className="icons " alt="" />
+                            <img src={icon5} className="icons " alt="" />
                             <h4 className="font-lightblue"> Cargo Owners</h4>
                         </div>
 
