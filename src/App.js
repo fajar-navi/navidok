@@ -21,6 +21,8 @@ import ImgBg from './components/ImgBg';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import OurUsers from "./pages/OurUsers";
+import {ContactUs} from "./components/Contact";
+import {ContactUs2} from "./components/Contact2";
 
 
 // import Category from './pages/Category';
@@ -53,6 +55,8 @@ function App() {
                   <Route path='/naviglobe' element={<NaviGlobe /> } />
                   <Route path='/maritime' element={<MaritimeSocialMedia /> } />
                   <Route path='/getintel' element={<GetIntel /> } />
+                  <Route path='/contact' element={<ContactUs /> } />
+                  <Route path='/contact2' element={<ContactUs2 /> } />
 
                   <Route path='/facebook' component={() => {
                       window.location.href = 'https://facebook.com';

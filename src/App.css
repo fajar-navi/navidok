@@ -2099,6 +2099,8 @@ li .shop-cart a:hover {
   .h6, h6 {
     font-size: 18px !important;
   }
+  .footer {
+    text-align: center; }
 
   .text-md-left {
     text-align: -webkit-center !important;
@@ -2170,7 +2172,7 @@ li .shop-cart a:hover {
   /*.img-prdc {    background-position: left 20% top !important;}*/
   .w80 { width: 80% !important;}
   .mt-60-1200 {margin-top: 60px !important;}
-
+  .userstab {display: flex;}
   .desktop-right {text-align: right !important;}
   .mt--20 {margin-top: -20px;}
      }

@@ -22,20 +22,20 @@ function OurUsers() {
                         <div className="col-lg-8 col-lg-offset-2" style={{marginBottom: '50px'}}>
                             <h3 className="title"><span style={{color: '#283891'}}>Our</span> Users</h3></div>
                     </div>
-                    <div className="row">
-                        <div data-wow-delay=".2s" className="col-lg-3 col-sm-6 wow fadeIn">
+                    <div className="row userstab" >
+                        <div data-wow-delay=".2s" className="col-lg-4 col-sm-6 wow fadeIn">
                             {/*<Link to="/shipowners"><img src={icon1} className="icons" alt="" />*/}
                             {/*    <h4 className="font-lightblue"> Shipowners &amp; Operators</h4></Link>*/}
                             <img src={icon1} className="icons" alt="" />
                                 <h4 className="font-lightblue"> Shipowners &amp; Operators</h4>
                         </div>
-                        <div data-wow-delay=".4s" className="col-lg-3 col-sm-6 wow fadeIn">
+                        <div data-wow-delay=".4s" className="col-lg-4 col-sm-6 wow fadeIn">
                             {/*<Link to="/shipyardowners"><img src={icon2} className="icons " alt="" />*/}
                             {/*    <h4 className="font-lightblue"> Shipyard Owners</h4></Link>*/}
                             <img src={icon2} className="icons " alt="" />
                                 <h4 className="font-lightblue"> Shipyard Owners</h4>
                         </div>
-                        <div data-wow-delay=".6s" className="col-lg-3 col-sm-6 wow fadeIn">
+                        <div data-wow-delay=".6s" className="col-lg-4 col-sm-6 wow fadeIn">
                             {/*<Link to="/supportingindustries"><img src={icon3} className="icons " alt="" />*/}
                             {/*    <h4 className="font-lightblue"> Supporting Industries</h4></Link>*/}
                             <img src={icon3} className="icons " alt="" />
@@ -45,8 +45,15 @@ function OurUsers() {
                             {/*<Link to="/individuals"><img src={icon4} className="icons " alt="" />*/}
                             {/*    <h4 className="font-lightblue"> Individuals</h4></Link>*/}
                             <img src={icon4} className="icons " alt="" />
-                                <h4 className="font-lightblue"> Individuals</h4>
+                            <h4 className="font-lightblue"> Individuals</h4>
                         </div>
+                        <div data-wow-delay=".10s" className="col-lg-3 col-sm-12 wow fadeIn">
+                            {/*<Link to="/individuals"><img src={icon4} className="icons " alt="" />*/}
+                            {/*    <h4 className="font-lightblue"> Individuals</h4></Link>*/}
+                            <img src={icon4} className="icons " alt="" />
+                            <h4 className="font-lightblue"> Cargo Owners</h4>
+                        </div>
+
                     </div>
                 </div>
             </section>
