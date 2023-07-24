@@ -72,7 +72,7 @@ function ProdSwp() {
                             <h1 className="heading title-dark mt-7 font-blue">Get Intel!</h1>
                             <p className="para-desc mx-auto">We Bring Magic to Shipyards owners
                                 And those who must find ships for their drydock(s).
-                                Drop us an email at <Link to="mailto:magic@navidok.com">magic@navidok.com</Link> and we will send you the spell</p>
+                                Drop us an email at <Link to="mailto:magic@navidok.com" style={{color: '#283891', fontWeight: 'bold'}}>magic@navidok.com</Link> and we will send you the spell</p>
                         </div></div>
                 </SwiperSlide>
 

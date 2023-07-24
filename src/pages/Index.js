@@ -39,21 +39,21 @@ We currently serve in selected areas</p>
             </div>
           </div>
         </section>
-    <section id="impact" style={{ background: `url(${bg_Impact}) no-repeat center center`, WebkitBackgroundSize: 'cover', MozBackgroundSize: 'cover', backgroundSize: 'cover' }}>
-          <div className="container">
-            <div className="row">
-              <div data-wow-duration="2s" data-wow-delay=".2s" className="col-lg-9 wow slideInRight animated">
-                <h3 className="title" style={{textAlign: 'left'}}>Impact</h3>
-                <p className="no-pad font-dark" style={{maxWidth: '750px', textAlign: 'left'}}>Our ultimate goal in creating this mobile app technology would not end at the benefits of maritime stakeholders only, which we believe would make world economy to become more competitive and affordable, but also to create economic opportunities which may take social impact to another level and to be able to participate more in an attempt to make this world becomes more sustainable in anyway we could</p>
-              </div>
-              <div data-wow-duration="2s" data-wow-delay=".2s" className="mt-7 col-lg-2 col-lg-offset-1 wow zoomIn animated" style={{visibility: 'visible', animationDuration: '2s', animationDelay: '0.2s', animationName: 'zoomIn'}}><br /><br />
-                {/* <a data-wow-duration="4s" data-wow-delay=".2s" href="impact.html" className="btn btn-dark">ETHICS</a><br /><br />
-                <a data-wow-duration="6s" data-wow-delay=".2s" href="impact.html" className="btn btn-dark">DATA PROTECTIONS</a><br /><br />
-                <a data-wow-duration="8s" data-wow-delay=".2s" href="#" className="btn btn-dark">TERMS OF USE</a> */}
-              </div>
-            </div>
-          </div>
-        </section>
+    {/*<section id="impact" style={{ background: `url(${bg_Impact}) no-repeat center center`, WebkitBackgroundSize: 'cover', MozBackgroundSize: 'cover', backgroundSize: 'cover' }}>*/}
+    {/*      <div className="container">*/}
+    {/*        <div className="row">*/}
+    {/*          <div data-wow-duration="2s" data-wow-delay=".2s" className="col-lg-9 wow slideInRight animated">*/}
+    {/*            <h3 className="title" style={{textAlign: 'left'}}>Impact</h3>*/}
+    {/*            <p className="no-pad font-dark" style={{maxWidth: '750px', textAlign: 'left'}}>Our ultimate goal in creating this mobile app technology would not end at the benefits of maritime stakeholders only, which we believe would make world economy to become more competitive and affordable, but also to create economic opportunities which may take social impact to another level and to be able to participate more in an attempt to make this world becomes more sustainable in anyway we could</p>*/}
+    {/*          </div>*/}
+    {/*          <div data-wow-duration="2s" data-wow-delay=".2s" className="mt-7 col-lg-2 col-lg-offset-1 wow zoomIn animated" style={{visibility: 'visible', animationDuration: '2s', animationDelay: '0.2s', animationName: 'zoomIn'}}><br /><br />*/}
+    {/*            /!* <a data-wow-duration="4s" data-wow-delay=".2s" href="impact.html" className="btn btn-dark">ETHICS</a><br /><br />*/}
+    {/*            <a data-wow-duration="6s" data-wow-delay=".2s" href="impact.html" className="btn btn-dark">DATA PROTECTIONS</a><br /><br />*/}
+    {/*            <a data-wow-duration="8s" data-wow-delay=".2s" href="#" className="btn btn-dark">TERMS OF USE</a> *!/*/}
+    {/*          </div>*/}
+    {/*        </div>*/}
+    {/*      </div>*/}
+    {/*    </section>*/}
 
         {/*<section id="services" className="text-center"  style={{marginBottom: '-100px'}}>*/}
         {/*  <div className="container text-center">*/}
