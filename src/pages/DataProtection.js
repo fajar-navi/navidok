@@ -59,7 +59,7 @@ function DataProtection() {
                         <div className="col-lg-12 mt-5">
                             <h4 style={{marginBottom: `0px`}}>User Rights and Choices</h4>
                             <p className="no-pad">
-                                a. Access and Correction: Users have the right to access, modify, or delete their personal information. Users can make such requests by contacting us at [provide contact details].<br/>
+                                a. Access and Correction: Users have the right to access, modify, or delete their personal information. Users can make such requests by contacting us at <a href="mailto:naviSupport@navidok.com">NaviSupport@navidok.com</a>.<br/>
                                 b. Marketing Communications: Users can choose to opt-out of receiving marketing communications from us by following the instructions provided in our communications or by contacting us.<br/>
                                 c. Device Permissions: Users may have the ability to control certain app permissions through their device settings.</p>
                         </div>

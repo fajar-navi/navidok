@@ -2122,7 +2122,7 @@ li .shop-cart a:hover {
   .icon-mob-mb30 {margin-top: 0px;margin-bottom: 30px;}
   .icon-mob-store {max-width: 150px!important; padding: 10px 0px;}
 }
-.icon-mob-store {max-width: 100px;}
+.icon-mob-store {max-width: 150px;}
 .w80 {position: relative;
   /*width: 80%;*/
   margin: 0 auto;
